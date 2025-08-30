@@ -1,5 +1,5 @@
 <script>
-  import { Calendar, ChevronLeft, ChevronRight, Clock, AlertCircle, CheckCircle2, Circle } from '@lucide/svelte';
+  import { Calendar, ChevronLeft, ChevronRight, Clock, AlertCircle, CheckCircle2, Circle } from 'lucide-svelte';
   
   export let data;
   let today = new Date();

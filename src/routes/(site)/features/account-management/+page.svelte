@@ -42,7 +42,7 @@
     Activity,
     Layers,
     GitBranch
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 </script>
 
 <svelte:head>

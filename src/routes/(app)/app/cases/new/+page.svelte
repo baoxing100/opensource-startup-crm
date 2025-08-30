@@ -1,6 +1,6 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
-  import { FolderOpen } from '@lucide/svelte';
+  import { FolderOpen } from 'lucide-svelte';
   export let data;
   let title = '';
   let description = '';

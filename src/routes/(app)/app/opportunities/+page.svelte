@@ -20,7 +20,7 @@
         Target,
         X,
         AlertTriangle
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
     import { goto } from '$app/navigation';
     import { enhance } from '$app/forms';
     import { page } from '$app/stores';

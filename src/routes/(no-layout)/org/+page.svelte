@@ -1,6 +1,6 @@
 <script>
     import '../../../app.css'
-    import { Building, Settings, LogOut, Plus } from '@lucide/svelte';
+    import { Building, Settings, LogOut, Plus } from 'lucide-svelte';
     import { goto } from '$app/navigation';
     import { browser } from '$app/environment';
     

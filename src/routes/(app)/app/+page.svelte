@@ -11,7 +11,7 @@
         Activity,
         AlertCircle,
         Plus
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
     
     /** @type {any} */
     export let data;

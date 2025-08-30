@@ -1,5 +1,5 @@
 <script>
-  import { DollarSign, Calendar, Target, TrendingUp, FileText, User, Building, ArrowLeft, Save, X } from '@lucide/svelte';
+  import { DollarSign, Calendar, Target, TrendingUp, FileText, User, Building, ArrowLeft, Save, X } from 'lucide-svelte';
   
   export let data;
   let opportunity = { ...data.opportunity };

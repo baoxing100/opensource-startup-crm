@@ -32,7 +32,7 @@
     Send,
     Copy,
     MoreVertical
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   export let data;
   export let form;

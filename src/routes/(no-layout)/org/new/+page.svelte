@@ -2,7 +2,7 @@
     import '../../../../app.css'
     import { enhance } from '$app/forms';
     import { goto } from '$app/navigation';
-    import { Building2, ArrowLeft, Check, AlertCircle } from '@lucide/svelte';
+    import { Building2, ArrowLeft, Check, AlertCircle } from 'lucide-svelte';
   
     export let form; // This contains the result of your form action
     

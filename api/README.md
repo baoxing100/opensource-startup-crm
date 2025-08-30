@@ -1,6 +1,6 @@
-# BottleCRM API
+# AWCRM API
 
-Express.js API for BottleCRM with JWT authentication, Swagger documentation, and configurable request logging.
+Express.js API for AWCRM with JWT authentication, Swagger documentation, and configurable request logging.
 
 ## Features
 

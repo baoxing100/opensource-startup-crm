@@ -27,7 +27,7 @@
     Layout,
     FileCode,
     ArrowRight
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   /** @type {number|null} */
   let activeFaq = null;

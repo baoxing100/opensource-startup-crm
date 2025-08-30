@@ -18,7 +18,7 @@
     CheckSquare,
     FolderOpen,
     Send
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   /** @type {any} */
   export let data;

@@ -33,7 +33,7 @@
     Mail,
     GitBranch,
     Code
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   let mounted = false;
   /** @type {any} */

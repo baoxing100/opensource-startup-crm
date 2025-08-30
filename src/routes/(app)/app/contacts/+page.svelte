@@ -18,7 +18,7 @@
         ChevronLeft,
         ChevronRight,
         User
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
 
     /** @type {{ data: import('./$types').PageData }} */
     let { data } = $props();

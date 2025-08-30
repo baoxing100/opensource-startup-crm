@@ -2,7 +2,7 @@
     import { enhance } from '$app/forms';
     import { goto } from '$app/navigation';
     import { page } from '$app/stores';
-    import { X, Save, Calendar, User, Building, AlertCircle, CheckCircle } from '@lucide/svelte';
+    import { X, Save, Calendar, User, Building, AlertCircle, CheckCircle } from 'lucide-svelte';
 
     /** @type {import('./$types').PageData} */
     export let data;

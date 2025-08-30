@@ -1,6 +1,6 @@
-# Contributing to BottleCRM
+# Contributing to AWCRM
 
-Thank you for your interest in contributing to BottleCRM! We're excited to have you join our community of developers working to make high-quality CRM software accessible to everyone.
+Thank you for your interest in contributing to AWCRM! We're excited to have you join our community of developers working to make high-quality CRM software accessible to everyone.
 
 This document provides guidelines and instructions for contributing to the project.
 
@@ -33,8 +33,8 @@ We are committed to providing a welcoming and inspiring community for all.
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/bottlecrm.git
-   cd bottlecrm
+   git clone https://github.com/YOUR_USERNAME/awcrm.git
+   cd awcrm
    ```
 3. Install dependencies:
    ```bash
@@ -136,7 +136,7 @@ We welcome suggestions for new features! To suggest a feature:
 
 ## Community
 
-Join our community to discuss the project, get help, or just hang out with other BottleCRM contributors:
+Join our community to discuss the project, get help, or just hang out with other AWCRM contributors:
 
 - [GitHub Discussions](https://github.com/yourusername/bottlecrm/discussions)
 - [Community Forum](#) (coming soon)
@@ -144,7 +144,7 @@ Join our community to discuss the project, get help, or just hang out with other
 
 ## License
 
-By contributing to BottleCRM, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
+By contributing to AWCRM, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
 
 ---
 

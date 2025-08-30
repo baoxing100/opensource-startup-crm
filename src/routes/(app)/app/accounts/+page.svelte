@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
-  import { Search, Plus, Eye, Edit, Phone, MapPin, Calendar, Users, TrendingUp, Building2, Globe, DollarSign, ChevronUp, ChevronDown, Filter } from '@lucide/svelte';
+  import { Search, Plus, Eye, Edit, Phone, MapPin, Calendar, Users, TrendingUp, Building2, Globe, DollarSign, ChevronUp, ChevronDown, Filter } from 'lucide-svelte';
   
   export let data;
   

@@ -12,7 +12,7 @@
 		Check,
 		X,
 		Trash2
-	} from '@lucide/svelte';
+	} from 'lucide-svelte';
 
 	/** @type {{ organization: any, users: any[], user: { id: string } }} */
 	export let data;

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
-  import { Briefcase, Plus, Filter, X } from '@lucide/svelte';
+  import { Briefcase, Plus, Filter, X } from 'lucide-svelte';
   
   export let data;
   let statusFilter = '';

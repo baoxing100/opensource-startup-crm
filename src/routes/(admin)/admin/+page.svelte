@@ -9,7 +9,7 @@
         Calendar,
         FileText,
         AlertCircle
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
 
     /** @type {{ data: import('./$types').PageData }} */
     let { data } = $props();

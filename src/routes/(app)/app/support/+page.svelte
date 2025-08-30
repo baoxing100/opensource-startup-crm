@@ -1,5 +1,5 @@
 <script>
-    import { Github, Mail, Bug, Lightbulb, Shield, Wrench, Heart, Users } from '@lucide/svelte';
+    import { Github, Mail, Bug, Lightbulb, Shield, Wrench, Heart, Users } from 'lucide-svelte';
     
     /** @type {{ data: import('./$types').PageData }} */
     let { data } = $props();

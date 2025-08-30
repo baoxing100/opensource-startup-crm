@@ -18,8 +18,8 @@
     GitFork,
     MessageCircle,
     Github
-  } from '@lucide/svelte';
-  import { Download } from '@lucide/svelte';
+  } from 'lucide-svelte';
+  import { Download } from 'lucide-svelte';
   
   /** @type {number|null} */
   let activeFaq = null;
@@ -29,20 +29,44 @@
    * @param {number} index
    */
   function toggleFaq(index) {
-    activeFaq = activeFaq === index ? null : index;
-  }
-  
-  onMount(() => {
+    activeFaq = activeFaq === index ? null : inde          <h4 class="text          <h4 class="text-lg          <h4 class="text-lg font-semibold text-gray-900">Can I self-host AWCRM on my own servers?</h3>
+            <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 2 ? 'rotate-180' : ''}" />
+          </div>
+        </button>
+        
+        {#if activeFaq === 2}
+          <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
+            <p class="text-gray-700 leading-relaxed">Absolutely! AWCRM is designed to be self-hosted. You have complete control over your data and can deploy it on your own servers, cloud infrastructure, or local environment. This ensures data privacy and eliminates vendor lock-in.</p>
+          </div>
+        {/if}bold text-gray-900">How does AWCRM compare to traditional CRM platforms?</h3>
+            <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 1 ? 'rotate-180' : ''}" />
+          </div>
+        </button>
+        
+        {#if activeFaq === 1}
+          <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
+            <p class="text-gray-700 leading-relaxed">AWCRM offers many of the same core features as enterprise CRM platforms but without the high monthly costs. While some commercial CRMs might have more advanced features, AWCRM provides everything most startups and small businesses need to manage customer relationships effectively.</p>
+          </div>
+        {/if}emibold text-gray-900">Is AWCRM really free to use?</h3>
+            <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 0 ? 'rotate-180' : ''}" />
+          </div>
+        </button>
+        
+        {#if activeFaq === 0}
+          <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
+            <p class="text-gray-700 leading-relaxed">Yes! AWCRM is 100% free and open-source. You can download, install, customize, and use it without any subscription fees or hidden costs. We also offer optional paid support services for hosting and customization.</p>
+          </div>
+        {/if}  onMount(() => {
     mounted = true;
   });
 
   // JSON-LD schema for SEO
   const schema = {
-    "@context": "https://schema.org",
+    "@context": "            AWCRM is completely free, open-source CRM software hosted on GitHub. Download, customize, self-host, and contribute to the project without any licensing restrictions. Perfect for startups seeking a cost-effective CRM alternative to expensive subscription-based solutions.ttps://schema.org",
     "@type": "SoftwareApplication",
-    "name": "BottleCRM",
+    "name": "AWCRM",
     "description": "Free, open-source CRM software for startups and small businesses. Self-hosted, unlimited users, no subscription fees.",
-    "url": "https://bottlecrm.io",
+    "url": "https://abetworks.in",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "offers": {
@@ -59,25 +83,25 @@
 </script>
 
 <svelte:head>
-  <title>BottleCRM: Free Open Source CRM for Startups & Small Business</title>
-  <meta name="description" content="BottleCRM is a free, open-source CRM for startups and small businesses. Self-host, manage contacts, sales, and tasks. No subscription fees. Download now!" />
+  <title>AWCRM: Free Open Source CRM for Startups & Small Business</title>
+  <meta name="description" content="AWCRM is a free, open-source CRM for startups and small businesses. Self-host, manage contacts, sales, and tasks. No subscription fees. Download now!" />
   <meta name="keywords" content="free crm, open source crm, crm software, startup crm, small business crm, self hosted crm, customer relationship management" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://bottlecrm.io/" />
+  <link rel="canonical" href="https://abetworks.in/" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/" />
-  <meta property="og:title" content="BottleCRM: Free Open Source CRM for Startups & Small Business" />
+  <meta property="og:url" content="https://abetworks.in/" />
+  <meta property="og:title" content="AWCRM: Free Open Source CRM for Startups & Small Business" />
   <meta property="og:description" content="Free, open-source CRM for startups and small businesses. Self-host, unlimited users, no subscription fees." />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://bottlecrm.io/" />
-  <meta name="twitter:title" content="BottleCRM: Free Open Source CRM for Startups & Small Business" />
+  <meta name="twitter:url" content="https://abetworks.in/" />
+  <meta name="twitter:title" content="AWCRM: Free Open Source CRM for Startups & Small Business" />
   <meta name="twitter:description" content="Free, open-source CRM for startups and small businesses. Self-host, unlimited users, no subscription fees." />
-  <meta name="twitter:image" content="https://bottlecrm.io/twitter-image.png" />
+  <meta name="twitter:image" content="https://abetworks.in/twitter-image.png" />
 
   <!-- Structured Data for SEO -->
   <script type="application/ld+json">
@@ -102,7 +126,7 @@
           The Free <span class="text-yellow-300">CRM Software</span> That Startups Actually Need
         </h1>
         <p class="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
-          Stop paying $50-300/month for CRM subscriptions. BottleCRM is a 100% free, open-source, and self-hostable customer relationship management solution built specifically for startups and growing businesses.
+          Stop paying $50-300/month for CRM subscriptions. AWCRM is a 100% free, open-source, and self-hostable customer relationship management solution built specifically for startups and growing businesses.
         </p>
         
         <!-- Value proposition bullets -->
@@ -122,11 +146,11 @@
         </ul>
         
         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="/login" class="inline-flex items-center justify-center px-6 py-4 border border-transparent text-base font-semibold rounded-lg text-blue-700 bg-white hover:bg-gray-100 shadow-lg transition-all duration-200 hover:scale-105 whitespace-nowrap">
+          <a href="/signup" class="inline-flex items-center justify-center px-6 py-4 border border-transparent text-base font-semibold rounded-lg text-blue-700 bg-white hover:bg-gray-100 shadow-lg transition-all duration-200 hover:scale-105 whitespace-nowrap">
             <Zap class="w-5 h-5 mr-2" />
-            Start Free Demo
+            Get Started Free
           </a>
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 border-2 border-white text-base font-semibold rounded-lg text-white hover:bg-white/10 transition-all duration-200 whitespace-nowrap">
+          <a href="https://github.com/abetworks/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 border-2 border-white text-base font-semibold rounded-lg text-white hover:bg-white/10 transition-all duration-200 whitespace-nowrap">
             <Github class="w-5 h-5 mr-2" />
             View Source
           </a>
@@ -364,7 +388,7 @@
         Take Your CRM <span class="text-yellow-300">On The Go</span>
       </h2>
       <p class="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed max-w-4xl mx-auto">
-        Introducing the BottleCRM mobile app - manage your customers, leads, and sales pipeline from anywhere. 
+        Introducing the AWCRM mobile app - manage your customers, leads, and sales pipeline from anywhere. 
         Built with Flutter for seamless cross-platform performance.
       </p>
     </div>
@@ -409,11 +433,11 @@
         </div>
         
         <div class="mt-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="https://play.google.com/store/apps/details?id=io.bottlecrm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 hover:scale-105 shadow-lg">
+          <a href="https://play.google.com/store/apps/details?id=in.abetworks.crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 hover:scale-105 shadow-lg">
             <Download class="w-5 h-5 mr-2" />
             Download on Google Play
           </a>
-          <a href="https://github.com/MicroPyramid/flutter-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-200">
+          <a href="https://github.com/abetworks/flutter-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-200">
             <Github class="w-5 h-5 mr-2" />
             View Mobile Source
           </a>
@@ -442,7 +466,7 @@
                   <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
                     <span class="text-white font-bold text-xl">B</span>
                   </div>
-                  <h3 class="text-xl font-bold text-gray-900">BottleCRM</h3>
+                  <h3 class="text-xl font-bold text-gray-900">AWCRM</h3>
                   <p class="text-gray-600 text-sm">Mobile CRM App</p>
                 </div>
                 
@@ -707,7 +731,7 @@
         
         {#if activeFaq === 3}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">BottleCRM is built with modern web technologies: SvelteKit 2.21.x for the frontend, Prisma for database management, TailwindCSS for styling, and includes integration capabilities with various third-party services.</p>
+            <p class="text-gray-700 leading-relaxed">AWCRM is built with modern web technologies: SvelteKit 2.21.x for the frontend, Prisma for database management, TailwindCSS for styling, and includes integration capabilities with various third-party services.</p>
           </div>
         {/if}
       </div>
@@ -726,7 +750,7 @@
         
         {#if activeFaq === 4}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">Yes! While the software is free, we offer paid professional services including hosting setup, custom development, data migration, training, and ongoing technical support to help you get the most out of BottleCRM.</p>
+            <p class="text-gray-700 leading-relaxed">Yes! While the software is free, we offer paid professional services including hosting setup, custom development, data migration, training, and ongoing technical support to help you get the most out of AWCRM.</p>
           </div>
         {/if}
       </div>
@@ -745,7 +769,7 @@
         
         {#if activeFaq === 5}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">BottleCRM is industry-agnostic and works well for most businesses including SaaS startups, consulting firms, e-commerce businesses, real estate agencies, and service-based companies. Its customizable nature allows adaptation to various industry-specific needs.</p>
+            <p class="text-gray-700 leading-relaxed">AWCRM is industry-agnostic and works well for most businesses including SaaS startups, consulting firms, e-commerce businesses, real estate agencies, and service-based companies. Its customizable nature allows adaptation to various industry-specific needs.</p>
           </div>
         {/if}
       </div>
@@ -785,11 +809,11 @@
         </div>
         
         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 shadow-lg transition-all duration-200 hover:scale-105 whitespace-nowrap">
+          <a href="https://github.com/abetworks/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 shadow-lg transition-all duration-200 hover:scale-105 whitespace-nowrap">
             <Github class="w-5 h-5 mr-2" />
             ⭐ Star on GitHub
           </a>
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm/fork" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 shadow-lg transition-all duration-200 whitespace-nowrap">
+          <a href="https://github.com/abetworks/opensource-startup-crm/fork" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 shadow-lg transition-all duration-200 whitespace-nowrap">
             <GitFork class="w-5 h-5 mr-2" />
             Fork & Customize
           </a>
@@ -801,7 +825,7 @@
           <div class="flex items-center mb-6">
             <Github class="h-10 w-10 text-gray-700 mr-4" />
             <div>
-              <h3 class="text-2xl font-bold text-gray-900">MicroPyramid/opensource-startup-crm</h3>
+              <h3 class="text-2xl font-bold text-gray-900">abetworks/opensource-startup-crm</h3>
               <p class="text-gray-700">Free Open Source CRM: SvelteKit + Prisma</p>
             </div>
           </div>
@@ -822,8 +846,8 @@
           </div>
           
           <div class="bg-gray-900 rounded-lg p-4 text-sm font-mono text-green-400 overflow-x-auto">
-            <div class="mb-2 whitespace-nowrap"># Clone and install BottleCRM</div>
-            <div class="text-gray-300 whitespace-nowrap">$ git clone https://github.com/MicroPyramid/opensource-startup-crm.git</div>
+            <div class="mb-2 whitespace-nowrap"># Clone and install AWCRM</div>
+            <div class="text-gray-300 whitespace-nowrap">$ git clone https://github.com/abetworks/opensource-startup-crm.git</div>
             <div class="text-gray-300 whitespace-nowrap">$ cd opensource-startup-crm</div>
             <div class="text-gray-300 whitespace-nowrap">$ pnpm install && pnpm run dev</div>
             <div class="mt-2 text-yellow-400 whitespace-nowrap"># 🎉 Your free CRM is ready!</div>
@@ -844,7 +868,7 @@
       </h2>
       <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
         Join the growing community of startups and small businesses who are ditching expensive CRM subscriptions. 
-        Start managing customer relationships more effectively today with BottleCRM - completely free, forever.
+        Start managing customer relationships more effectively today with AWCRM - completely free, forever.
       </p>
       
       <!-- Savings calculator -->
@@ -867,7 +891,7 @@
       </div>
       
       <div class="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-        <a href="/login" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
+        <a href="/signup" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
           <Zap class="w-6 h-6 mr-3" />
           Start Your Free CRM Today
         </a>
@@ -892,7 +916,7 @@
             Trusted by a Growing Global Community
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            BottleCRM is empowering startups and small businesses worldwide to build better customer relationships without breaking the bank.
+            AWCRM is empowering startups and small businesses worldwide to build better customer relationships without breaking the bank.
         </p>
     </div>
     

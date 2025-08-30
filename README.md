@@ -1,10 +1,10 @@
-# BottleCRM: Free and Open Source Customer Relationship Management
+# AWCRM: Free and Open Source Customer Relationship Management
 
 <div align="center">
   <h3>Powerful, Modern Multi-Tenant CRM for Everyone</h3>
 </div>
 
-BottleCRM is a free, open-source Customer Relationship Management solution designed to help small and medium businesses effectively manage their customer relationships. Built with modern technologies and enterprise-grade multi-tenancy, it offers a comprehensive set of features without the enterprise price tag.
+AWCRM is a free, open-source Customer Relationship Management solution designed to help small and medium businesses effectively manage their customer relationships. Built with modern technologies and enterprise-grade multi-tenancy, it offers a comprehensive set of features without the enterprise price tag.
 
 ## ✨ Key Highlights
 
@@ -41,7 +41,7 @@ BottleCRM is a free, open-source Customer Relationship Management solution desig
 - **User Management**: Add team members with appropriate role assignments
 - **Organization Management**: Multi-tenant structure with data isolation
 - **Audit Logging**: Complete activity tracking for compliance
-- **Super Admin Panel**: Platform-wide management for system administrators
+- **Super Admin Panel**: Platform-wide management for system administrators (requires @abetworks.in email)
 
 ## 🔮 Coming Soon
 
@@ -89,7 +89,7 @@ pnpm install
 Create a `.env` file based on the following template:
 ```env
 # Database Configuration
-DATABASE_URL="postgresql://postgres:password@localhost:5432/bottlecrm?schema=public"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/awcrm?schema=public"
 
 # JWT Secret (required for authentication)
 # Generate a secure secret using openssl:
@@ -207,7 +207,7 @@ We welcome contributions of all kinds! See our [CONTRIBUTING.md](CONTRIBUTING.md
 
 ## 📄 License
 
-BottleCRM is open source software [licensed as MIT](LICENSE).
+AWCRM is open source software [licensed as MIT](LICENSE).
 
 ---
 

@@ -18,7 +18,7 @@
     Briefcase,
     TrendingUp,
     Hash
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   /** @type {import('./$types').ActionData} */
   export let form;

@@ -13,7 +13,7 @@
     ArrowLeft,
     ExternalLink,
     Calendar
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   let mounted = false;
   const lastUpdated = "December 2024";

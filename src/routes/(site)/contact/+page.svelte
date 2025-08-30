@@ -20,7 +20,7 @@
     AlertCircle,
     Github,
     Download
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   // Form data - now handled by server
   let formData = {

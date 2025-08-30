@@ -1,6 +1,6 @@
 <script>
     import { enhance } from '$app/forms';
-    import { User, Mail, Phone, Building, Calendar, Settings, Edit, Save, X } from '@lucide/svelte';
+    import { User, Mail, Phone, Building, Calendar, Settings, Edit, Save, X } from 'lucide-svelte';
     import { validatePhoneNumber, formatPhoneNumber } from '$lib/utils/phone.js';
     
     /** @type {{ data: import('./$types').PageData, form: import('./$types').ActionData }} */

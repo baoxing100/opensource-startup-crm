@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Briefcase, Edit3, Trash2, Clock, User, Building, Calendar, AlertCircle, MessageCircle, Send, CheckCircle, RotateCcw, XCircle } from '@lucide/svelte';
+  import { Briefcase, Edit3, Trash2, Clock, User, Building, Calendar, AlertCircle, MessageCircle, Send, CheckCircle, RotateCcw, XCircle } from 'lucide-svelte';
   
   export let data;
   let comment = '';

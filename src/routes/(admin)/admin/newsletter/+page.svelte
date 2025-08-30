@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import { Mail, Users, TrendingUp, UserCheck, Calendar } from '@lucide/svelte';
+  import { Mail, Users, TrendingUp, UserCheck, Calendar } from 'lucide-svelte';
   
   /** @type {import('./$types').PageData} */
   export let data;

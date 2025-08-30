@@ -5,7 +5,7 @@
     import Highlight from "svelte-highlight";
     import python from "svelte-highlight/languages/python";
     import "svelte-highlight/styles/github-dark.css"
-    import { Edit, Facebook, Twitter, Linkedin, Share2 } from "@lucide/svelte";
+    import { Edit, Facebook, Twitter, Linkedin, Share2 } from "lucide-svelte";
     
     /** @type {{ data: import('./$types').PageData }} */
     let { data } = $props();

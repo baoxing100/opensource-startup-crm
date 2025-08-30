@@ -25,7 +25,7 @@
     ChevronDown,
     Mail,
     Calendar
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   /** @type {number|null} */
   let activeFaq = null;

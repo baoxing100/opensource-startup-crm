@@ -1,7 +1,7 @@
 <script>
   import { enhance } from '$app/forms';
   import { goto } from '$app/navigation';
-  import { Save, X, Plus, Trash2 } from '@lucide/svelte';
+  import { Save, X, Plus, Trash2 } from 'lucide-svelte';
 
   /** @type {import('./$types').ActionData} - for external reference */
   export const form = /** @type {any} */ (undefined);

@@ -21,7 +21,7 @@
       AlertCircle,
       Briefcase,
       Target
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
 
     /** @type {import('./$types').ActionData} */
     export let form;

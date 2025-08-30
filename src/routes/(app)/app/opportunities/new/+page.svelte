@@ -2,7 +2,7 @@
     import { enhance } from '$app/forms';
     import { goto } from '$app/navigation';
     import { browser } from '$app/environment';
-    import { Plus, Building2, Calendar, DollarSign, Target, ArrowLeft, Users } from '@lucide/svelte';
+    import { Plus, Building2, Calendar, DollarSign, Target, ArrowLeft, Users } from 'lucide-svelte';
 
     /** @type {{ data: import('./$types').PageData, form?: import('./$types').ActionData }} */
     let { data, form } = $props();

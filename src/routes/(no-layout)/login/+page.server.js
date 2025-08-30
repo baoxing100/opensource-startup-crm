@@ -1,10 +1,9 @@
 import axios from 'axios';
 import prisma from '$lib/prisma'
 
-import { redirect } from '@sveltejs/kit';
+import { redirect, fail } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
-
-// import bcrypt from "bcryptjs";
+import crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -30,7 +29,22 @@ async function fetchUserData(params) {
 
 /** @type {import('@sveltejs/kit').ServerLoad} */
 export async function load({ url, cookies }) {
-  const code = url.searchParams.get('code')
+  const code = url.searchParams.get('code');
+  const message = url.searchParams.get('message');
+  const error = url.searchParams.get('error');
+
+  let alert = null;
+  if (message === 'password-reset-success') {
+    alert = {
+      type: 'success',
+      message: 'Your password has been reset successfully. Please log in with your new password.'
+    };
+  } else if (error === 'invalid-reset-token') {
+    alert = {
+      type: 'error',
+      message: 'The password reset link is invalid or has expired. Please request a new one.'
+    };
+  }
   const redirect_uri = env.GOOGLE_LOGIN_DOMAIN + '/login'
 
     // Check if the user is already authenticated
@@ -106,3 +120,64 @@ export async function load({ url, cookies }) {
 
   return { google_url: google_login_url }
 }
+
+function hashPassword(password) {
+    return crypto.createHash('sha256').update(password).digest('hex');
+}
+
+/** @type {import('./$types').Actions} */
+export const actions = {
+    login: async ({ request, cookies }) => {
+        const data = await request.formData();
+        const email = data.get('email');
+        const password = data.get('password');
+
+        if (!email || !password) {
+            return fail(400, {
+                error: 'Email and password are required'
+            });
+        }
+
+        // Find user by email
+        const user = await prisma.user.findUnique({
+            where: { email: email.toString() }
+        });
+
+        if (!user || !user.password) {
+            return fail(400, {
+                error: 'Invalid email or password'
+            });
+        }
+
+        // Compare password hash
+        const hashedPassword = hashPassword(password.toString());
+        if (hashedPassword !== user.password) {
+            return fail(400, {
+                error: 'Invalid email or password'
+            });
+        }
+
+        // Generate session ID
+        const sessionId = uuidv4();
+
+        // Update user with new session
+        await prisma.user.update({
+            where: { id: user.id },
+            data: {
+                session_id: sessionId,
+                lastLogin: new Date()
+            }
+        });
+
+        // Set session cookie
+        cookies.set('session', sessionId, {
+            path: '/',
+            httpOnly: true,
+            sameSite: 'strict',
+            secure: true,
+            maxAge: 60 * 60 * 24 * 7 // one week
+        });
+
+        throw redirect(307, '/bounce');
+    }
+};

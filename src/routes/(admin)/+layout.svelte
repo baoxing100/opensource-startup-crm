@@ -1,6 +1,6 @@
 <script>
     import '../../app.css'
-    import { Menu, Bell, User, Search, FileText, Settings, ChartBar, Home, X, LogOut } from '@lucide/svelte';
+    import { Menu, Bell, User, Search, FileText, Settings, ChartBar, Home, X, LogOut } from 'lucide-svelte';
     
     /** @type {{ data?: any, children: import('svelte').Snippet }} */
     let { data, children } = $props();

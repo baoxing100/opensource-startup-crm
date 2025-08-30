@@ -2,7 +2,7 @@
   import { enhance } from '$app/forms';
   import { goto } from '$app/navigation';
   import { fly } from 'svelte/transition';
-  import { ArrowLeft, Save, X, User, Building, Mail, Phone, Calendar, Star, Target, AlertCircle } from '@lucide/svelte';
+  import { ArrowLeft, Save, X, User, Building, Mail, Phone, Calendar, Star, Target, AlertCircle } from 'lucide-svelte';
 
   export let data;
   

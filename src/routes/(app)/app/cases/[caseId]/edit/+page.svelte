@@ -2,7 +2,7 @@
   export let data;
   import { enhance } from '$app/forms';
   import { goto } from '$app/navigation';
-  import { Save, X, AlertTriangle, User, Building, Calendar, Flag, FileText, Lock, Unlock } from '@lucide/svelte';
+  import { Save, X, AlertTriangle, User, Building, Calendar, Flag, FileText, Lock, Unlock } from 'lucide-svelte';
 
   let title = data.caseItem.subject;
   let description = data.caseItem.description || '';

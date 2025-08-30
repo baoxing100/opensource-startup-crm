@@ -38,7 +38,7 @@
     Clock,
     Globe,
     Settings
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   let mounted = false;
   /** @type {number|null} */

@@ -1,7 +1,7 @@
 <script>
   import { goto } from '$app/navigation';
   import { enhance } from '$app/forms';
-  import { ArrowLeft, Edit3, Calendar, User, Building2, MessageSquare, Send } from '@lucide/svelte';
+  import { ArrowLeft, Edit3, Calendar, User, Building2, MessageSquare, Send } from 'lucide-svelte';
   
   export let data;
   /** @type {import('./$types').ActionData} */

@@ -1,5 +1,5 @@
 <script>
-  import { ArrowLeft, Mail, Phone, Building2, Calendar, User, MapPin, Edit, Plus, ExternalLink, Clock, DollarSign, Target, CheckCircle, Circle, AlertCircle, Users, Star } from '@lucide/svelte';
+  import { ArrowLeft, Mail, Phone, Building2, Calendar, User, MapPin, Edit, Plus, ExternalLink, Clock, DollarSign, Target, CheckCircle, Circle, AlertCircle, Users, Star } from 'lucide-svelte';
   
   /** @type {{ data: import('./$types').PageData }} */
   let { data } = $props();

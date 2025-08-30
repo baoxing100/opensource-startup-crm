@@ -36,7 +36,7 @@ const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'BottleCRM API',
+      title: 'AWCRM API',
       version: '1.0.0',
       description: 'Multi-tenant CRM API with JWT authentication',
     },
@@ -95,7 +95,7 @@ app.get('/health', (req, res) => {
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  logger.info(`BottleCRM API server running on port ${PORT}`);
+  logger.info(`AWCRM API server running on port ${PORT}`);
   logger.info(`Swagger documentation available at http://localhost:${PORT}/api-docs`);
 });
 

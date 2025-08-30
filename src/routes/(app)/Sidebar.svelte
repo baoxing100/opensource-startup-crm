@@ -22,7 +22,7 @@
 		Settings,
 		User,
 		X
-	} from '@lucide/svelte';
+	} from 'lucide-svelte';
 
 	let { 
 		drawerHidden = $bindable(false),

@@ -1,8 +1,8 @@
 <script>
-	import '../../../app.css';
-	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
-
+    import '../../../app.css';
+    import { onMount } from 'svelte';
+    import { fade, fly } from 'svelte/transition';
+    import EmailLoginForm from './EmailLoginForm.svelte';
     import imgGoogle from '$lib/assets/images/google.svg';
     import imgLogo from '$lib/assets/images/logo.png';
     import { 
@@ -15,7 +15,7 @@
         Shield,
         Github,
         Star
-    } from '@lucide/svelte';
+    } from 'lucide-svelte';
     
     export let data;
 
@@ -50,8 +50,8 @@
 </script>
 
 <svelte:head>
-    <title>Login | BottleCRM - Free Open-Source CRM for Startups</title>
-    <meta name="description" content="Sign in to BottleCRM - the completely free, open-source CRM solution for startups and small businesses. No subscription fees, unlimited users." />
+    <title>Login | AWCRM - Free Open-Source CRM for Startups</title>
+    <meta name="description" content="Sign in to AWCRM - the completely free, open-source CRM solution for startups and small businesses. No subscription fees, unlimited users." />
 </svelte:head>
 
 <!-- Main Container with Gradient Background -->
@@ -79,7 +79,7 @@
                                 </div>
                                 
                                 <h1 class="text-4xl xl:text-5xl font-extrabold mb-6 leading-tight">
-                                    Welcome to <span class="text-yellow-300">BottleCRM</span>
+                                    Welcome to <span class="text-yellow-300">AWCRM</span>
                                 </h1>
                                 
                                 <p class="text-xl text-blue-100 mb-8 leading-relaxed">
@@ -89,7 +89,7 @@
 
                             <!-- Key Benefits -->
                             <div class="mb-8">
-                                <h3 class="text-lg font-semibold mb-4">Why Choose BottleCRM?</h3>
+                                <h3 class="text-lg font-semibold mb-4">Why Choose AWCRM?</h3>
                                 <ul class="space-y-3">
                                     {#each benefits as benefit, i}
                                         <li class="flex items-center" in:fly="{{ x: -30, duration: 600, delay: 400 + (i * 100) }}">
@@ -153,14 +153,20 @@
                                     <!-- Logo and Header -->
                                     <div class="text-center mb-8">
                                         <div class="mb-6" in:fade="{{ duration: 600, delay: 300 }}">
-                                            <img src="{imgLogo}" alt="BottleCRM Logo" class="mx-auto h-16 w-auto" />
+                                            <img src="{imgLogo}" alt="AWCRM Logo" class="mx-auto h-16 w-auto" />
                                         </div>
                                         
                                         <div in:fade="{{ duration: 600, delay: 400 }}">
                                             <h2 class="text-2xl font-bold text-gray-900 mb-2">Welcome Back</h2>
                                             <p class="text-gray-600 text-sm leading-relaxed">
-                                                Sign in to your free BottleCRM account and start managing your customer relationships more effectively.
+                                                Sign in to your free AWCRM account and start managing your customer relationships more effectively.
                                             </p>
+                                            
+                                            {#if data.alert}
+                                                <div class="mt-4 p-4 rounded-lg text-sm {data.alert.type === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}">
+                                                    {data.alert.message}
+                                                </div>
+                                            {/if}
                                         </div>
                                     </div>
 
@@ -188,6 +194,21 @@
                                         </div>
                                     </div>
 
+                                    <!-- Email Login Form -->
+                                    <div class="mb-6">
+                                        <EmailLoginForm form={data.form} />
+                                    </div>
+
+                                    <!-- OR Divider -->
+                                    <div class="relative mb-6">
+                                        <div class="absolute inset-0 flex items-center">
+                                            <div class="w-full border-t border-gray-300"></div>
+                                        </div>
+                                        <div class="relative flex justify-center text-sm">
+                                            <span class="px-2 bg-white text-gray-500">Or continue with</span>
+                                        </div>
+                                    </div>
+
                                     <!-- Google Sign In Button -->
                                     <div in:fade="{{ duration: 600, delay: 600 }}">
                                         <a href="{data['google_url']}"
@@ -198,13 +219,13 @@
                                             <div class="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-blue-500/5 to-blue-500/0 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
                                             
                                             <!-- Loading Spinner -->
-                                            {#if isLoading}
-                                                <div class="animate-spin rounded-full h-5 w-5 border-2 border-blue-600 border-t-transparent"></div>
-                                            {:else}
-                                                <img src="{imgGoogle}" alt="Google" class="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
-                                            {/if}
-                                            
-                                            <span class="relative z-10">
+                            {#if isLoading}
+                                <div class="animate-spin rounded-full h-5 w-5 border-2 border-blue-600 border-t-transparent"></div>
+                            {:else if data.error}
+                                <AlertCircle class="w-5 h-5 text-red-600" />
+                            {:else}
+                                <img src="{imgGoogle}" alt="Google" class="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
+                            {/if}                                            <span class="relative z-10">
                                                 {isLoading ? 'Connecting...' : 'Continue with Google'}
                                             </span>
                                         </a>
@@ -219,7 +240,7 @@
                                         
                                         <!-- Footer Links -->
                                         <div class="flex items-center justify-center space-x-4 text-xs">
-                                            <a href="https://github.com/MicroPyramid/opensource-startup-crm" 
+                                            <a href="https://github.com/abetworks/opensource-startup-crm" 
                                                target="_blank" 
                                                rel="noopener noreferrer"
                                                class="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200">
@@ -242,9 +263,13 @@
                             <!-- Below Card Notice -->
                             <div class="mt-6 text-center" in:fade="{{ duration: 600, delay: 800 }}">
                                 <p class="text-blue-100 text-sm">
-                                    New to BottleCRM? 
+                                    New to AWCRM? 
+                                    <a href="/signup" class="text-yellow-300 hover:text-yellow-200 font-medium underline transition-colors duration-200">
+                                        Create an account
+                                    </a>
+                                    or 
                                     <a href="/" class="text-yellow-300 hover:text-yellow-200 font-medium underline transition-colors duration-200">
-                                        Learn more about our free CRM
+                                        learn more
                                     </a>
                                 </p>
                             </div>

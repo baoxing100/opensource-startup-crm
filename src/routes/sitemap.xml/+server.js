@@ -11,7 +11,7 @@ const prisma = new PrismaClient();
 export async function GET() {
   try {
     // Base URL for the site (adjust for production)
-    const baseUrl = dev ? 'http://localhost:5173' : 'https://bottlecrm.io';
+    const baseUrl = dev ? 'http://localhost:5173' : 'https://abetworks.in';
     
     // Fetch all published blog posts
     const blogPosts = await prisma.blogPost.findMany({

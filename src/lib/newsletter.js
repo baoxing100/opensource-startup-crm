@@ -6,7 +6,7 @@
  * @param {string} baseUrl - Base URL of the application
  * @returns {string} Unsubscribe URL
  */
-export function generateUnsubscribeLink(token, baseUrl = 'https://bottlecrm.io') {
+export function generateUnsubscribeLink(token, baseUrl = 'https://abetworks.in') {
   return `${baseUrl}/unsubscribe?token=${token}`;
 }
 
@@ -28,18 +28,18 @@ export function isValidEmail(email) {
  */
 export function generateWelcomeEmail(email, unsubscribeLink) {
   return {
-    subject: 'Welcome to BottleCRM Newsletter!',
+    subject: 'Welcome to AWCRM Newsletter!',
     html: `
       <!DOCTYPE html>
       <html>
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to BottleCRM Newsletter</title>
+        <title>Welcome to AWCRM Newsletter</title>
       </head>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 10px; text-align: center; margin-bottom: 30px;">
-          <h1 style="color: white; margin: 0; font-size: 28px;">Welcome to BottleCRM!</h1>
+          <h1 style="color: white; margin: 0; font-size: 28px;">Welcome to AWCRM!</h1>
           <p style="color: #f0f0f0; margin: 10px 0 0 0; font-size: 16px;">Thank you for subscribing to our newsletter</p>
         </div>
         
@@ -54,7 +54,7 @@ export function generateWelcomeEmail(email, unsubscribeLink) {
         </div>
         
         <div style="text-align: center; margin-bottom: 30px;">
-          <a href="https://bottlecrm.io/demo" style="background: #667eea; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold;">Try BottleCRM Free</a>
+          <a href="https://abetworks.in/demo" style="background: #667eea; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold;">Try AWCRM Free</a>
         </div>
         
         <div style="text-align: center; color: #666; font-size: 14px; border-top: 1px solid #ddd; padding-top: 20px;">

@@ -19,7 +19,7 @@
     Clock,
     XCircle,
     Eye
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
   
   // Get leads from the data prop passed from the server
   export let data;

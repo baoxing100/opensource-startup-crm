@@ -16,8 +16,14 @@ model User {
   id                String              @id @default(uuid())
   user_id           String              @unique
   email             String              @unique
+  password          String?             // Hashed password for direct login
   name              String?
   session_id        String?             @unique
+  resetToken        String?             // For password reset functionality
+  resetTokenExpiry  DateTime?           // Reset token expiration
+  isEmailVerified   Boolean             @default(false)
+  emailVerificationToken String?
+  emailVerificationExpiry DateTime?
   createdAt         DateTime            @default(now())
   updatedAt         DateTime            @updatedAt
   profilePhoto      String?

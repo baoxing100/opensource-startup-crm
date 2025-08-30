@@ -30,7 +30,7 @@
     DollarSign,
     Database,
     MapPin
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 </script>
 
 <svelte:head>

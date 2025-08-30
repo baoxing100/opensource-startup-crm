@@ -1,5 +1,5 @@
 <script>
-  import { Check, X, Calendar, FileText } from '@lucide/svelte';
+  import { Check, X, Calendar, FileText } from 'lucide-svelte';
   import { enhance } from '$app/forms';
   
   export let data;

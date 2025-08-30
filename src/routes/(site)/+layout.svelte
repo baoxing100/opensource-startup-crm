@@ -15,7 +15,7 @@
     Github,
     Twitter,
     Linkedin
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
   import { enhance } from '$app/forms';
 
   let isMenuOpen = false;
@@ -79,15 +79,15 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="language" content="English" />
   <meta name="author" content="MicroPyramid" />
-  <link rel="canonical" href="https://bottlecrm.io{page.url.pathname}" />
+  <link rel="canonical" href="https://abetworks.in{page.url.pathname}" />
   
   <!-- Enhanced Open Graph -->
-  <meta property="og:site_name" content="BottleCRM" />
+  <meta property="og:site_name" content="AWCRM" />
   <meta property="og:locale" content="en_US" />
   
   <!-- Enhanced Twitter Cards -->
-  <meta name="twitter:site" content="@micropyramid" />
-  <meta name="twitter:creator" content="@micropyramid" />
+  <meta name="twitter:site" content="@abetworks" />
+  <meta name="twitter:creator" content="@abetworks" />
   
   <!-- Preconnect to external domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -101,12 +101,12 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo Section -->
         <div class="flex items-center flex-shrink-0">
-          <a href="/" class="flex items-center group" aria-label="BottleCRM Homepage">
+          <a href="/" class="flex items-center group" aria-label="AWCRM Homepage">
             <div class="relative">
-              <img src={logo} alt="BottleCRM Logo" class="h-7 w-7 sm:h-8 sm:w-8 group-hover:opacity-90 transition-opacity duration-200" />
+              <img src={logo} alt="AWCRM Logo" class="h-7 w-7 sm:h-8 sm:w-8 group-hover:opacity-90 transition-opacity duration-200" />
               <div class="absolute -top-1 -right-1 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-500 rounded-full animate-pulse"></div>
             </div>
-            <span class="ml-2 text-lg sm:text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">BottleCRM</span>
+            <span class="ml-2 text-lg sm:text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">AWCRM</span>
             <span class="hidden xs:block ml-2 text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-medium">FREE</span>
           </a>
         </div>
@@ -115,7 +115,7 @@
         <div class="hidden xl:flex items-center space-x-1">
           <a href="/features" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Features</a>
           <a href="/pricing" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Pricing</a>
-          <a href="https://www.youtube.com/@bottlecrm" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Live Demo</a>
+          <a href="https://www.youtube.com/@abetworks" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Live Demo</a>
           <a href="/blog" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Blog</a>
           <a href="/contact" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Support</a>
           
@@ -241,7 +241,7 @@
       <!-- Newsletter signup -->
       <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 mb-12">
         <div class="text-center">
-          <h3 class="text-2xl font-bold text-white mb-4">Stay Updated with BottleCRM</h3>
+          <h3 class="text-2xl font-bold text-white mb-4">Stay Updated with AWCRM</h3>
           <p class="text-blue-100 mb-6 max-w-2xl mx-auto">Get the latest updates on new features, best practices, and CRM tips delivered to your inbox.</p>
           <form 
             method="POST" 
@@ -296,8 +296,8 @@
         <!-- Company Info -->
         <div class="lg:col-span-2">
           <div class="flex items-center mb-4">
-            <img src={logo} alt="BottleCRM Logo" class="h-8 w-8 mr-3" />
-            <span class="text-xl font-bold text-white">BottleCRM</span>
+            <img src={logo} alt="AWCRM Logo" class="h-8 w-8 mr-3" />
+            <span class="text-xl font-bold text-white">AWCRM</span>
           </div>
           <p class="text-gray-400 mb-6 leading-relaxed">The only CRM you'll ever need - completely free, open-source, and designed for startups. Build better customer relationships without breaking the bank.</p>
           
@@ -387,7 +387,7 @@
       <div class="mt-12 pt-8 border-t border-gray-800">
         <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
           <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
-            <p class="text-sm text-gray-400">© {new Date().getFullYear()} BottleCRM by <a href="https://micropyramid.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">MicroPyramid</a>. Open Source & Free Forever.</p>
+            <p class="text-sm text-gray-400">© {new Date().getFullYear()} AWCRM by <a href="https://abetworks.in" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">AbetWorks</a>. Open Source & Free Forever.</p>
             <div class="flex space-x-4 text-sm">
               <a href="/privacy-policy" class="text-gray-400 hover:text-white transition-colors duration-200">Privacy</a>
               <a href="/terms-of-service" class="text-gray-400 hover:text-white transition-colors duration-200">Terms</a>

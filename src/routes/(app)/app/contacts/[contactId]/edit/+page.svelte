@@ -3,7 +3,7 @@
   import { goto } from '$app/navigation';
   import { onMount } from 'svelte';
   import { invalidateAll } from '$app/navigation';
-  import { User, Mail, Phone, Building, MapPin, FileText, Star, Save, X, ArrowLeft } from '@lucide/svelte';
+  import { User, Mail, Phone, Building, MapPin, FileText, Star, Save, X, ArrowLeft } from 'lucide-svelte';
   import { validatePhoneNumber } from '$lib/utils/phone.js';
   
   /** @type {{ data: import('./$types').PageData }} */

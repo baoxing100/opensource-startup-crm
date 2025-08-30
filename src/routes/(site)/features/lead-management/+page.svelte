@@ -43,7 +43,7 @@
     Edit,
     Trash2,
     MoreHorizontal
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   let mounted = false;
   

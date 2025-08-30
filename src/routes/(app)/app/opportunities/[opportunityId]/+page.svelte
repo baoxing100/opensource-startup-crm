@@ -15,7 +15,7 @@
     FileText,
     Activity,
     Award
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
   
   export let data;
   let opportunity = data.opportunity;

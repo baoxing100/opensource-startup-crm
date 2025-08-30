@@ -13,7 +13,7 @@
     CheckCircle,
     Globe,
     ArrowLeft
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   let lastUpdated = "June 2025";
   const schema = {

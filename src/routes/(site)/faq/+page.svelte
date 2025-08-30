@@ -13,7 +13,7 @@
     MessageCircle,
     Zap,
     ExternalLink
-  } from '@lucide/svelte';
+  } from 'lucide-svelte';
 
   /** @type {string|null} */
   let activeFaq = null;
@@ -480,7 +480,7 @@
           {#if activeFaq === 'technical-0'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM is built with modern web technologies: SvelteKit 2.21+ for the frontend, Prisma for database management, TailwindCSS 4.1+ for styling, and @lucide/svelte for icons. It supports multiple databases including PostgreSQL, MySQL, and SQLite.</p>
+                <p class="text-gray-700 leading-relaxed">BottleCRM is built with modern web technologies: SvelteKit 2.21+ for the frontend, Prisma for database management, TailwindCSS 4.1+ for styling, and lucide-svelte for icons. It supports multiple databases including PostgreSQL, MySQL, and SQLite.</p>
               </div>
             </div>
           {/if}

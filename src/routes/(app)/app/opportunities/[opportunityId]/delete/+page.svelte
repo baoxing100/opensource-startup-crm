@@ -1,7 +1,7 @@
 <script>
     import { enhance } from '$app/forms';
     import { goto } from '$app/navigation';
-    import { AlertTriangle, ArrowLeft } from '@lucide/svelte';
+    import { AlertTriangle, ArrowLeft } from 'lucide-svelte';
 
     /** @type {{ data: import('./$types').PageData }} */
     let { data } = $props();
