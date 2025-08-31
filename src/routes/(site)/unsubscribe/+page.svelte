@@ -13,8 +13,8 @@
 </script>
 
 <svelte:head>
-  <title>Unsubscribe - BottleCRM Newsletter</title>
-  <meta name="description" content="Unsubscribe from BottleCRM newsletter updates and communications." />
+  <title>Unsubscribe - AWCRM Newsletter</title>
+  <meta name="description" content="Unsubscribe from AWCRM newsletter updates and communications." />
   <meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 

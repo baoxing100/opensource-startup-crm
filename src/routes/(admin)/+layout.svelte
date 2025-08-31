@@ -23,7 +23,7 @@
                 <div class="flex items-center">
                     <!-- Logo -->
                     <div class="flex-shrink-0">
-                        <h1 class="text-xl font-bold text-blue-600">BottleCRM</h1>
+                        <h1 class="text-xl font-bold text-blue-600">AWCRM</h1>
                     </div>
                     
                     <!-- Desktop navigation -->

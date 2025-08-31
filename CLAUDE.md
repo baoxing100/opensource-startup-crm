@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-BottleCRM is a SaaS CRM platform built with SvelteKit, designed for startups and enterprises with role-based access control (RBAC). The application features multi-tenancy through organizations, with strict data isolation enforced at the database level.
+AWCRM is a SaaS CRM platform built with SvelteKit, designed for startups and enterprises with role-based access control (RBAC). The application features multi-tenancy through organizations, with strict data isolation enforced at the database level.
 
 ## Technology Stack
 
@@ -51,7 +51,7 @@ npx prisma studio
 ### Multi-Tenant Structure
 - **Organizations**: Top-level tenant containers with strict data isolation
 - **Users**: Can belong to multiple organizations with different roles (ADMIN/USER)
-- **Super Admin**: Users with @micropyramid.com email domain have platform-wide access
+- **Super Admin**: Users with @abetworks.in email domain have platform-wide access
 
 ### Core CRM Entities
 - **Leads**: Initial prospects that can be converted to Accounts/Contacts/Opportunities
@@ -67,7 +67,7 @@ npx prisma studio
 - Organization selection required after login via `/org` route
 - Route protection in `src/hooks.server.js`:
   - `/app/*` routes require authentication and organization membership
-  - `/admin/*` routes restricted to @micropyramid.com domain users
+  - `/admin/*` routes restricted to @abetworks.in domain users
   - `/org` route for organization selection
 
 ### Data Access Control

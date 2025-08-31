@@ -125,7 +125,7 @@ The API uses the same Prisma schema as the main SvelteKit application, ensuring 
 - Database models and relationships
 - Organization-based multi-tenancy
 - User role management (ADMIN/USER)
-- Super admin access (@micropyramid.com domain)
+- Super admin access (@abetworks.in domain)
 
 ## Testing with Swagger
 

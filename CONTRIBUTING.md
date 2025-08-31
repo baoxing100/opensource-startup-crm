@@ -138,7 +138,7 @@ We welcome suggestions for new features! To suggest a feature:
 
 Join our community to discuss the project, get help, or just hang out with other AWCRM contributors:
 
-- [GitHub Discussions](https://github.com/yourusername/bottlecrm/discussions)
+- [GitHub Discussions](https://github.com/baoxing100/opensource-startup-crm/discussions)
 - [Community Forum](#) (coming soon)
 - [Discord Server](#) (coming soon)
 

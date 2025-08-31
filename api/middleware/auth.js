@@ -108,7 +108,7 @@ export const requireRole = (roles) => {
 };
 
 export const requireSuperAdmin = (req, res, next) => {
-  if (!req.user.email.endsWith('@micropyramid.com')) {
+  if (!req.user.email.endsWith('@abetworks.in')) {
     return res.status(403).json({ error: 'Super admin access required.' });
   }
   next();

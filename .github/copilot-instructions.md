@@ -9,11 +9,11 @@ user types we have
 -   Org
     -   user(s)
     -   Admin
--   super admin - anyone with @micropyramid.com email to manage whole platform
+-   super admin - anyone with @abetworks.in email to manage whole platform
 
 ## Project Context
 
-BottleCRM is a modern CRM application built with:
+AWCRM is a modern CRM application built with:
 - **Framework**: SvelteKit 2.21.x, Svelte 5.1, Prisma
 - **Styling**: tailwind 4.1.x css
 - **Database**: postgresql

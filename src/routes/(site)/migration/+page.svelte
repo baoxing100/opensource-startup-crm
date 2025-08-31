@@ -53,23 +53,23 @@
 </script>
 
 <svelte:head>
-  <title>Migrate to BottleCRM – Free CRM Migration Tools & Service</title>
-  <meta name="description" content="Migrate from Salesforce, HubSpot, Pipedrive, and more to BottleCRM. Free CRM migration tools, expert support, and zero subscription fees. Own your CRM data." />
+  <title>Migrate to AWCRM – Free CRM Migration Tools & Service</title>
+  <meta name="description" content="Migrate from Salesforce, HubSpot, Pipedrive, and more to AWCRM. Free CRM migration tools, expert support, and zero subscription fees. Own your CRM data." />
   <meta name="keywords" content="crm migration, migrate crm, crm data migration, free crm migration, open source crm, salesforce migration, hubspot migration, pipedrive migration, crm import, crm export, crm migration service" />
-  <link rel="canonical" href="https://bottlecrm.io/migration" />
+  <link rel="canonical" href="https://awcrm.io/migration" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Migrate to BottleCRM – Free CRM Migration Tools & Service" />
-  <meta property="og:description" content="Switch from Salesforce, HubSpot, Pipedrive, and more to BottleCRM. Free migration tools, expert support, and zero subscription fees." />
+  <meta property="og:title" content="Migrate to AWCRM – Free CRM Migration Tools & Service" />
+  <meta property="og:description" content="Switch from Salesforce, HubSpot, Pipedrive, and more to AWCRM. Free migration tools, expert support, and zero subscription fees." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/migration" />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:url" content="https://awcrm.io/migration" />
+  <meta property="og:image" content="https://awcrm.io/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Migrate to BottleCRM – Free CRM Migration Tools & Service" />
-  <meta name="twitter:description" content="Migrate from Salesforce, HubSpot, Pipedrive, and more to BottleCRM. Free CRM migration tools, expert support, and zero subscription fees." />
-  <meta name="twitter:image" content="https://bottlecrm.io/og-image.png" />
+  <meta name="twitter:title" content="Migrate to AWCRM – Free CRM Migration Tools & Service" />
+  <meta name="twitter:description" content="Migrate from Salesforce, HubSpot, Pipedrive, and more to AWCRM. Free CRM migration tools, expert support, and zero subscription fees." />
+  <meta name="twitter:image" content="https://awcrm.io/og-image.png" />
 
   <!-- Structured Data (JSON-LD) -->
   {@html `
@@ -77,16 +77,16 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "CRM Migration to BottleCRM",
-        "description": "Professional CRM migration services and free tools to move from Salesforce, HubSpot, Pipedrive, and other platforms to BottleCRM. Preserve your data and eliminate subscription costs.",
+        "name": "CRM Migration to AWCRM",
+        "description": "Professional CRM migration services and free tools to move from Salesforce, HubSpot, Pipedrive, and other platforms to AWCRM. Preserve your data and eliminate subscription costs.",
         "provider": {
           "@type": "Organization",
-          "name": "BottleCRM",
-          "url": "https://bottlecrm.io"
+          "name": "AWCRM",
+          "url": "https://awcrm.io"
         },
         "areaServed": "Worldwide",
         "serviceType": "CRM Data Migration",
-        "url": "https://bottlecrm.io/migration"
+        "url": "https://awcrm.io/migration"
       }
     </script>
   `}
@@ -106,7 +106,7 @@
       </h1>
       
       <p class="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
-        Migrate from expensive subscription-based CRM platforms to BottleCRM. 
+        Migrate from expensive subscription-based CRM platforms to AWCRM. 
         Keep all your data, gain complete control, and eliminate monthly fees forever.
       </p>
       
@@ -470,11 +470,11 @@
                 <Settings class="h-6 w-6 text-blue-600" />
               </div>
               <div>
-                <h3 class="text-xl font-bold text-gray-900">Plan Your BottleCRM Setup</h3>
+                <h3 class="text-xl font-bold text-gray-900">Plan Your AWCRM Setup</h3>
                 <p class="text-sm text-blue-600 font-medium">Estimated time: 1 day</p>
               </div>
             </div>
-            <p class="text-gray-600">Configure BottleCRM to match your business needs</p>
+            <p class="text-gray-600">Configure AWCRM to match your business needs</p>
           </div>
           
           <div class="lg:w-2/3">
@@ -561,7 +561,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-4xl font-extrabold text-gray-900 mb-6">
-        Why Choose BottleCRM?
+        Why Choose AWCRM?
       </h2>
       <p class="text-xl text-gray-600">
         Experience the freedom of open-source CRM with enterprise-level features.
@@ -695,7 +695,7 @@
         Migration Questions & Answers
       </h2>
       <p class="text-xl text-gray-600">
-        Everything you need to know about migrating to BottleCRM.
+        Everything you need to know about migrating to AWCRM.
       </p>
     </div>
 
@@ -735,7 +735,7 @@
         
         {#if activeFaq === 1}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">BottleCRM migration tools are designed to preserve all your important data. We recommend keeping backups of your original data and testing with sample data first. Our professional migration service includes data integrity verification.</p>
+            <p class="text-gray-700 leading-relaxed">AWCRM migration tools are designed to preserve all your important data. We recommend keeping backups of your original data and testing with sample data first. Our professional migration service includes data integrity verification.</p>
           </div>
         {/if}
       </div>
@@ -775,7 +775,7 @@
         
         {#if activeFaq === 3}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">Yes! Our professional migration service includes custom field mapping, workflow recreation, and business process migration. We ensure your BottleCRM setup matches your current business needs.</p>
+            <p class="text-gray-700 leading-relaxed">Yes! Our professional migration service includes custom field mapping, workflow recreation, and business process migration. We ensure your AWCRM setup matches your current business needs.</p>
           </div>
         {/if}
       </div>
@@ -795,7 +795,7 @@
         
         {#if activeFaq === 4}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">BottleCRM supports custom workflows and automation. Our migration service includes analyzing your current workflows and recreating them in BottleCRM, often with improvements and optimizations.</p>
+            <p class="text-gray-700 leading-relaxed">AWCRM supports custom workflows and automation. Our migration service includes analyzing your current workflows and recreating them in AWCRM, often with improvements and optimizations.</p>
           </div>
         {/if}
       </div>
@@ -830,14 +830,14 @@
       Ready to Own Your CRM Data?
     </h2>
     <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-      Start preparing for your migration today. Download BottleCRM, explore the features, 
+      Start preparing for your migration today. Download AWCRM, explore the features, 
       and experience the freedom of open-source CRM.
     </p>
     
     <div class="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-6">
       <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
         <Github class="w-6 h-6 mr-3" />
-        Download BottleCRM
+        Download AWCRM
       </a>
       <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-white border-2 border-white hover:bg-white/10 transition-all duration-200">
         <MessageCircle class="w-6 h-6 mr-3" />

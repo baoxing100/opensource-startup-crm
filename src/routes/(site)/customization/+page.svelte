@@ -46,31 +46,31 @@
 </script>
 
 <svelte:head>
-  <title>BottleCRM Customization: Free Open Source CRM & Custom Development</title>
-  <meta name="description" content="Customize BottleCRM, the free open-source CRM, to fit your business. DIY tools & expert services for branding, integrations, and workflow automation. Unlimited possibilities." />
-  <meta name="keywords" content="free crm, open source crm, crm customization, custom crm development, crm integration, svelte crm, crm workflow, crm api, bottlecrm, business crm, crm software" />
-  <link rel="canonical" href="https://bottlecrm.io/customization" />
+  <title>AWCRM Customization: Free Open Source CRM & Custom Development</title>
+  <meta name="description" content="Customize AWCRM, the free open-source CRM, to fit your business. DIY tools & expert services for branding, integrations, and workflow automation. Unlimited possibilities." />
+  <meta name="keywords" content="free crm, open source crm, crm customization, custom crm development, crm integration, svelte crm, crm workflow, crm api, awcrm, business crm, crm software" />
+  <link rel="canonical" href="https://abetworks.in/customization" />
   <meta name="robots" content="index, follow" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="BottleCRM Customization: Free Open Source CRM & Custom Development" />
-  <meta property="og:description" content="Customize BottleCRM to fit your business. Free CRM with unlimited customization, DIY guides, and professional services." />
+  <meta property="og:title" content="AWCRM Customization: Free Open Source CRM & Custom Development" />
+  <meta property="og:description" content="Customize AWCRM to fit your business. Free CRM with unlimited customization, DIY guides, and professional services." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/customization" />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:url" content="https://abetworks.in/customization" />
+  <meta property="og:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BottleCRM Customization: Free Open Source CRM & Custom Development" />
-  <meta name="twitter:description" content="Customize BottleCRM to fit your business. Free CRM with unlimited customization, DIY guides, and professional services." />
-  <meta name="twitter:image" content="https://bottlecrm.io/og-image.png" />
+  <meta name="twitter:title" content="AWCRM Customization: Free Open Source CRM & Custom Development" />
+  <meta name="twitter:description" content="Customize AWCRM to fit your business. Free CRM with unlimited customization, DIY guides, and professional services." />
+  <meta name="twitter:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Structured Data: SoftwareApplication & Service -->
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "BottleCRM",
+      "name": "AWCRM",
       "applicationCategory": "Customer Relationship Management",
       "operatingSystem": "Web",
       "offers": {
@@ -79,11 +79,11 @@
         "priceCurrency": "USD"
       },
       "license": "https://opensource.org/licenses/MIT",
-      "url": "https://bottlecrm.io",
-      "description": "BottleCRM is a free, open-source CRM application with unlimited customization, DIY tools, and professional development services.",
+      "url": "https://abetworks.in",
+      "description": "AWCRM is a free, open-source CRM application with unlimited customization, DIY tools, and professional development services.",
       "publisher": {
         "@type": "Organization",
-        "name": "BottleCRM"
+        "name": "AWCRM"
       }
     })}
   </script>
@@ -91,11 +91,11 @@
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Service",
-      "name": "BottleCRM Customization Services",
-      "description": "Professional and DIY CRM customization for BottleCRM: branding, integrations, workflow automation, and more.",
+      "name": "AWCRM Customization Services",
+      "description": "Professional and DIY CRM customization for AWCRM: branding, integrations, workflow automation, and more.",
       "provider": {
         "@type": "Organization",
-        "name": "BottleCRM"
+        "name": "AWCRM"
       },
       "areaServed": "Worldwide",
       "offers": [
@@ -127,7 +127,7 @@
       </div>
       
       <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-        Make BottleCRM <span class="text-yellow-300">Uniquely Yours</span>
+        Make AWCRM <span class="text-yellow-300">Uniquely Yours</span>
       </h1>
       
       <p class="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
@@ -224,7 +224,7 @@
         </ul>
         
         <div class="flex space-x-3">
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg text-purple-600 bg-purple-50 hover:bg-purple-100 transition-colors">
+          <a href="https://github.com/baoxing100/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg text-purple-600 bg-purple-50 hover:bg-purple-100 transition-colors">
             <Download class="w-4 h-4 mr-2" />
             DIY Guide
           </a>
@@ -283,7 +283,7 @@
         </ul>
         
         <div class="flex space-x-3">
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg text-purple-600 bg-purple-50 hover:bg-purple-100 transition-colors">
+          <a href="https://github.com/baoxing100/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg text-purple-600 bg-purple-50 hover:bg-purple-100 transition-colors">
             <Download class="w-4 h-4 mr-2" />
             DIY Guide
           </a>
@@ -312,7 +312,7 @@
           </div>
         </div>
         
-        <p class="text-gray-600 mb-6 leading-relaxed">Connect BottleCRM with your existing tools and develop custom integrations.</p>
+        <p class="text-gray-600 mb-6 leading-relaxed">Connect AWCRM with your existing tools and develop custom integrations.</p>
         
         <ul class="space-y-3 mb-6">
           <li class="flex items-start">
@@ -415,7 +415,7 @@
         Real Customization Examples
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        See how businesses across different industries have customized BottleCRM to fit their unique requirements.
+        See how businesses across different industries have customized AWCRM to fit their unique requirements.
       </p>
     </div>
 
@@ -497,14 +497,14 @@
             <Code class="w-12 h-12 text-purple-600 mx-auto" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-2">DIY Customization Kit</h3>
-          <p class="text-gray-600 mb-4">Everything you need to customize BottleCRM yourself with comprehensive guides and resources.</p>
+          <p class="text-gray-600 mb-4">Everything you need to customize AWCRM yourself with comprehensive guides and resources.</p>
           
           <div class="mb-6">
             <span class="text-5xl font-extrabold text-gray-900">Free</span>
             <span class="text-xl text-gray-500">/Forever</span>
           </div>
           
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" 
+          <a href="https://github.com/abetworks/awcrm" 
              target="_blank" rel="noopener noreferrer"
              class="w-full inline-flex items-center justify-center px-6 py-3 text-lg font-semibold rounded-lg text-purple-600 bg-purple-50 hover:bg-purple-100 transition-all duration-200">
             Download Free
@@ -699,7 +699,7 @@
         Technical Requirements for DIY Customization
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        Planning to customize BottleCRM yourself? Here are the technical skills and technologies you'll need to know.
+        Planning to customize AWCRM yourself? Here are the technical skills and technologies you'll need to know.
       </p>
     </div>
 
@@ -827,7 +827,7 @@
         Customization Questions & Answers
       </h2>
       <p class="text-xl text-gray-600">
-        Everything you need to know about customizing BottleCRM for your business.
+        Everything you need to know about customizing AWCRM for your business.
       </p>
     </div>
 
@@ -840,7 +840,7 @@
           aria-expanded={activeFaq === 0}
         >
           <div class="flex justify-between items-center">
-            <h3 class="text-lg font-semibold text-gray-900 pr-4">Can I customize BottleCRM without coding knowledge?</h3>
+            <h3 class="text-lg font-semibold text-gray-900 pr-4">Can I customize AWCRM without coding knowledge?</h3>
             <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 0 ? 'rotate-180' : ''}" />
           </div>
         </button>
@@ -860,7 +860,7 @@
           aria-expanded={activeFaq === 1}
         >
           <div class="flex justify-between items-center">
-            <h3 class="text-lg font-semibold text-gray-900 pr-4">Will my customizations be lost when BottleCRM updates?</h3>
+            <h3 class="text-lg font-semibold text-gray-900 pr-4">Will my customizations be lost when AWCRM updates?</h3>
             <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 1 ? 'rotate-180' : ''}" />
           </div>
         </button>
@@ -900,14 +900,14 @@
           aria-expanded={activeFaq === 3}
         >
           <div class="flex justify-between items-center">
-            <h3 class="text-lg font-semibold text-gray-900 pr-4">Can you integrate BottleCRM with our existing tools?</h3>
+            <h3 class="text-lg font-semibold text-gray-900 pr-4">Can you integrate AWCRM with our existing tools?</h3>
             <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 {activeFaq === 3 ? 'rotate-180' : ''}" />
           </div>
         </button>
         
         {#if activeFaq === 3}
           <div transition:fade="{{ duration: 200 }}" class="px-6 pb-5">
-            <p class="text-gray-700 leading-relaxed">Absolutely! We've integrated BottleCRM with hundreds of tools including Shopify, WordPress, QuickBooks, Mailchimp, Slack, and many others. If it has an API, we can likely integrate it.</p>
+            <p class="text-gray-700 leading-relaxed">Absolutely! We've integrated AWCRM with hundreds of tools including Shopify, WordPress, QuickBooks, Mailchimp, Slack, and many others. If it has an API, we can likely integrate it.</p>
           </div>
         {/if}
       </div>
@@ -967,7 +967,7 @@
     </p>
     
     <div class="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-      <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-purple-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
+      <a href="https://github.com/abetworks/awcrm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-purple-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
         <Github class="w-6 h-6 mr-3" />
         Start DIY Customization
       </a>

@@ -55,8 +55,8 @@
 </script>
 
 <svelte:head>
-  <title>Blog | BottleCRM</title>
-  <meta name="description" content="Latest articles and updates from BottleCRM" />
+  <title>Blog | AWCRM</title>
+  <meta name="description" content="Latest articles and updates from AWCRM" />
 </svelte:head>
 
 <section class="bg-gradient-to-b from-blue-50 to-white py-16">
@@ -66,7 +66,7 @@
         Our Blog
       </h1>
       <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-        The latest news, articles, and resources from BottleCRM
+        The latest news, articles, and resources from AWCRM
       </p>
     </div>
   </div>

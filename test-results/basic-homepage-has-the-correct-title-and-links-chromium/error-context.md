@@ -1,0 +1,186 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "AWCRM Homepage" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "AWCRM Logo" [ref=e10] [cursor=pointer]
+        - generic [ref=e12] [cursor=pointer]: AWCRM
+      - generic [ref=e13]:
+        - link "Features" [ref=e14] [cursor=pointer]:
+          - /url: /features
+        - link "Pricing" [ref=e15] [cursor=pointer]:
+          - /url: /pricing
+        - link "Live Demo" [ref=e16] [cursor=pointer]:
+          - /url: https://www.youtube.com/@abetworks
+        - link "Blog" [ref=e17] [cursor=pointer]:
+          - /url: /blog
+        - link "Support" [ref=e18] [cursor=pointer]:
+          - /url: /contact
+        - link "Star AWCRM on GitHub" [ref=e19] [cursor=pointer]:
+          - /url: https://github.com/abetworks/awcrm
+          - img [ref=e20] [cursor=pointer]
+        - link "Login" [ref=e24] [cursor=pointer]:
+          - /url: /login
+        - link "Start Free" [ref=e25] [cursor=pointer]:
+          - /url: /login
+          - text: Start Free
+          - img [ref=e26] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e36]: 🚀 Free Forever • No Credit Card Required
+        - heading "The Free CRM Software That Startups Actually Need" [level=1] [ref=e37]:
+          - text: The Free
+          - generic [ref=e38]: CRM Software
+          - text: That Startups Actually Need
+        - paragraph [ref=e39]: Stop paying $50-300/month for CRM subscriptions. AWCRM is a 100% free, open-source, and self-hostable customer relationship management solution built specifically for startups and growing businesses.
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e44]: No monthly fees - Save thousands per year
+          - listitem [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]: Complete data ownership - Host on your servers
+          - listitem [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]: Unlimited users and customization
+        - generic [ref=e53]:
+          - link "Get Started Free" [ref=e54] [cursor=pointer]:
+            - /url: /signup
+            - img [ref=e55] [cursor=pointer]
+            - text: Get Started Free
+          - link "View Source" [ref=e57] [cursor=pointer]:
+            - /url: https://github.com/abetworks/opensource-startup-crm
+            - img [ref=e58] [cursor=pointer]
+            - text: View Source
+      - img "AWCRM Dashboard Preview - Free CRM Software Interface" [ref=e65]
+    - generic [ref=e74]:
+      - heading "Enterprise-Grade CRM Features Without Enterprise Costs" [level=2] [ref=e75]:
+        - text: Enterprise-Grade CRM Features
+        - generic [ref=e76]: Without Enterprise Costs
+      - paragraph [ref=e77]: Everything your startup or small business needs to manage customer relationships, automate sales processes, and drive sustainable growth. All features included, no premium tiers.
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e81]
+        - paragraph [ref=e82]: Everything you need to know about AWCRM and free CRM software.
+      - generic [ref=e83]:
+        - button "Is AWCRM really free to use?" [ref=e85]:
+          - generic [ref=e86]:
+            - heading "Is AWCRM really free to use?" [level=3] [ref=e87]
+            - img [ref=e88]
+        - button "How does AWCRM compare to traditional CRM platforms?" [ref=e91]:
+          - generic [ref=e92]:
+            - heading "How does AWCRM compare to traditional CRM platforms?" [level=3] [ref=e93]
+            - img [ref=e94]
+        - button "Can I self-host AWCRM on my own servers?" [ref=e97]:
+          - generic [ref=e98]:
+            - heading "Can I self-host AWCRM on my own servers?" [level=3] [ref=e99]
+            - img [ref=e100]
+  - contentinfo [ref=e102]:
+    - generic [ref=e103]:
+      - generic [ref=e105]:
+        - heading "Stay Updated with AWCRM" [level=3] [ref=e106]
+        - paragraph [ref=e107]: Get the latest updates on new features, best practices, and CRM tips delivered to your inbox.
+        - generic [ref=e110]:
+          - generic [ref=e111]: Enter your email address
+          - textbox "Enter your email address" [ref=e112]
+          - button "Subscribe Free" [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - img "AWCRM Logo" [ref=e117]
+            - generic [ref=e118]: AWCRM
+          - paragraph [ref=e119]: The only CRM you'll ever need - completely free, open-source, and designed for startups. Build better customer relationships without breaking the bank.
+          - generic [ref=e120]:
+            - link "GitHub" [ref=e121] [cursor=pointer]:
+              - /url: https://github.com/abetworks/awcrm
+              - img [ref=e122] [cursor=pointer]
+            - link "Twitter" [ref=e125] [cursor=pointer]:
+              - /url: https://twitter.com/abetworks
+              - img [ref=e126] [cursor=pointer]
+            - link "LinkedIn" [ref=e128] [cursor=pointer]:
+              - /url: https://linkedin.com/company/abetworks
+              - img [ref=e129] [cursor=pointer]
+        - generic [ref=e133]:
+          - heading "CRM Solutions" [level=3] [ref=e134]
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "Contact Management" [ref=e137] [cursor=pointer]:
+                - /url: /features/contact-management
+            - listitem [ref=e138]:
+              - link "Lead Management" [ref=e139] [cursor=pointer]:
+                - /url: /features/lead-management
+            - listitem [ref=e140]:
+              - link "Account Management" [ref=e141] [cursor=pointer]:
+                - /url: /features/account-management
+            - listitem [ref=e142]:
+              - link "Sales Pipeline" [ref=e143] [cursor=pointer]:
+                - /url: /features/sales-pipeline
+            - listitem [ref=e144]:
+              - link "Analytics & Reports Coming Soon" [ref=e145] [cursor=pointer]:
+                - /url: /features/analytics
+                - text: Analytics & Reports
+                - generic [ref=e146] [cursor=pointer]: Coming Soon
+        - generic [ref=e147]:
+          - heading "Resources" [level=3] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "CRM Blog" [ref=e151] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e152]:
+              - link "Documentation Coming Soon" [ref=e153] [cursor=pointer]:
+                - /url: /documentation
+                - text: Documentation
+                - generic [ref=e154] [cursor=pointer]: Coming Soon
+            - listitem [ref=e155]:
+              - link "Video Tutorials Coming Soon" [ref=e156] [cursor=pointer]:
+                - /url: /tutorials
+                - text: Video Tutorials
+                - generic [ref=e157] [cursor=pointer]: Coming Soon
+            - listitem [ref=e158]:
+              - link "API Documentation Coming Soon" [ref=e159] [cursor=pointer]:
+                - /url: /api-docs
+                - text: API Documentation
+                - generic [ref=e160] [cursor=pointer]: Coming Soon
+            - listitem [ref=e161]:
+              - link "Case Studies Coming Soon" [ref=e162] [cursor=pointer]:
+                - /url: /case-studies
+                - text: Case Studies
+                - generic [ref=e163] [cursor=pointer]: Coming Soon
+        - generic [ref=e164]:
+          - heading "Support" [level=3] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "Contact Support" [ref=e168] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e169]:
+              - link "FAQ" [ref=e170] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e171]:
+              - link "Hosting Services Coming Soon" [ref=e172] [cursor=pointer]:
+                - /url: /hosting-services
+                - text: Hosting Services
+                - generic [ref=e173] [cursor=pointer]: Coming Soon
+            - listitem [ref=e174]:
+              - link "Custom Development" [ref=e175] [cursor=pointer]:
+                - /url: /customization
+            - listitem [ref=e176]:
+              - link "CRM Migration" [ref=e177] [cursor=pointer]:
+                - /url: /migration
+      - generic [ref=e180]:
+        - paragraph [ref=e181]:
+          - text: © 2025 AWCRM by
+          - link "AbetWorks" [ref=e182] [cursor=pointer]:
+            - /url: https://abetworks.in
+          - text: . Open Source & Free Forever.
+        - generic [ref=e183]:
+          - link "Privacy" [ref=e184] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms" [ref=e185] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Sitemap" [ref=e186] [cursor=pointer]:
+            - /url: /sitemap.xml
+```

@@ -24,26 +24,26 @@
 </script>
 
 <svelte:head>
-  <title>Terms of Service | Free Open Source CRM - BottleCRM</title>
-  <meta name="description" content="Read the Terms of Service for BottleCRM, a free and open source CRM software for startups and small businesses. MIT licensed. No hidden fees." />
-  <meta name="keywords" content="free crm, open source crm, crm software, mit license, bottlecrm, terms of service, startup crm, small business crm" />
+  <title>Terms of Service | Free Open Source CRM - AWCRM</title>
+  <meta name="description" content="Read the Terms of Service for AWCRM, a free and open source CRM software for startups and small businesses. MIT licensed. No hidden fees." />
+  <meta name="keywords" content="free crm, open source crm, crm software, mit license, awcrm, terms of service, startup crm, small business crm" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://bottlecrm.io/terms-of-service" />
+  <link rel="canonical" href="https://abetworks.in/terms-of-service" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/terms-of-service" />
-  <meta property="og:title" content="Terms of Service | Free Open Source CRM - BottleCRM" />
-  <meta property="og:description" content="Terms of Service for BottleCRM, a free and open source CRM software for startups and small businesses. MIT licensed." />
-  <meta property="og:site_name" content="BottleCRM" />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:url" content="https://abetworks.in/terms-of-service" />
+  <meta property="og:title" content="Terms of Service | Free Open Source CRM - AWCRM" />
+  <meta property="og:description" content="Terms of Service for AWCRM, a free and open source CRM software for startups and small businesses. MIT licensed." />
+  <meta property="og:site_name" content="AWCRM" />
+  <meta property="og:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://bottlecrm.io/terms-of-service" />
-  <meta name="twitter:title" content="Terms of Service | Free Open Source CRM - BottleCRM" />
-  <meta name="twitter:description" content="Terms of Service for BottleCRM, a free and open source CRM software for startups and small businesses. MIT licensed." />
-  <meta name="twitter:image" content="https://bottlecrm.io/og-image.png" />
+  <meta name="twitter:url" content="https://abetworks.in/terms-of-service" />
+  <meta name="twitter:title" content="Terms of Service | Free Open Source CRM - AWCRM" />
+  <meta name="twitter:description" content="Terms of Service for AWCRM, a free and open source CRM software for startups and small businesses. MIT licensed." />
+  <meta name="twitter:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Structured Data -->
   {@html `
@@ -51,13 +51,13 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Terms of Service - BottleCRM",
-        "description": "Terms of Service for BottleCRM, a free and open source CRM software for startups and small businesses. MIT licensed.",
-        "url": "https://bottlecrm.io/terms-of-service",
+        "name": "Terms of Service - AWCRM",
+        "description": "Terms of Service for AWCRM, a free and open source CRM software for startups and small businesses. MIT licensed.",
+        "url": "https://abetworks.in/terms-of-service",
         "lastReviewed": "2024-12-01",
         "about": {
           "@type": "SoftwareApplication",
-          "name": "BottleCRM",
+          "name": "AWCRM",
           "applicationCategory": "Customer Relationship Management",
           "operatingSystem": "All",
           "offers": {
@@ -163,10 +163,10 @@
       {#if mounted}
         <div in:fly="{{ y: 30, duration: 600, delay: 300 }}" class="mb-16">
           <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
-            <h2 class="text-2xl font-bold text-blue-900 mb-4">Welcome to BottleCRM</h2>
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">Welcome to AWCRM</h2>
             <p class="text-blue-800 leading-relaxed">
-              BottleCRM is a free, open-source Customer Relationship Management (CRM) software designed specifically for startups and small businesses. 
-              These Terms of Service ("Terms") govern your use of the BottleCRM software and any related services we provide.
+              AWCRM is a free, open-source Customer Relationship Management (CRM) software designed specifically for startups and small businesses. 
+              These Terms of Service ("Terms") govern your use of the AWCRM software and any related services we provide.
             </p>
           </div>
         </div>
@@ -186,11 +186,11 @@
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
-            <p class="text-gray-700 leading-relaxed mb-4">By accessing, downloading, or using BottleCRM software, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our software or services.</p>
+            <p class="text-gray-700 leading-relaxed mb-4">By accessing, downloading, or using AWCRM software, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our software or services.</p>
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
                 <CheckCircle class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                <span>These terms apply to all users of BottleCRM software</span>
+                <span>These terms apply to all users of AWCRM software</span>
               </li>
               <li class="flex items-start">
                 <CheckCircle class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -198,7 +198,7 @@
               </li>
               <li class="flex items-start">
                 <CheckCircle class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                <span>If you disagree with any part, please do not use BottleCRM</span>
+                <span>If you disagree with any part, please do not use AWCRM</span>
               </li>
             </ul>
           </div>
@@ -219,7 +219,7 @@
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
-            <p class="text-gray-700 leading-relaxed mb-4">BottleCRM is distributed under the MIT License, which grants you extensive rights to use, modify, and distribute the software. You may freely download, install, customize, and self-host BottleCRM without any licensing fees or subscription charges.</p>
+            <p class="text-gray-700 leading-relaxed mb-4">AWCRM is distributed under the MIT License, which grants you extensive rights to use, modify, and distribute the software. You may freely download, install, customize, and self-host AWCRM without any licensing fees or subscription charges.</p>
             
             <div class="bg-gray-900 rounded-lg p-4 mb-4">
               <h4 class="text-white font-bold mb-2">MIT License Summary</h4>
@@ -239,7 +239,7 @@
             <ul class="space-y-2 text-gray-700 mb-6">
               <li class="flex items-start">
                 <CheckCircle class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                <span>Use BottleCRM for personal or commercial purposes</span>
+                <span>Use AWCRM for personal or commercial purposes</span>
               </li>
               <li class="flex items-start">
                 <CheckCircle class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -272,13 +272,13 @@
           </div>
 
           <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mb-6">
-            <p class="text-gray-700 leading-relaxed mb-4">The BottleCRM software is provided free of charge with no warranty or guarantee. We make no representations about the software's suitability for your specific business needs. Use at your own risk.</p>
+            <p class="text-gray-700 leading-relaxed mb-4">The AWCRM software is provided free of charge with no warranty or guarantee. We make no representations about the software's suitability for your specific business needs. Use at your own risk.</p>
             
             <h4 class="font-bold text-gray-900 mb-3">Important Disclaimers for Free Software:</h4>
             <ul class="space-y-2 text-gray-700">
               <li class="flex items-start">
                 <AlertTriangle class="w-5 h-5 text-yellow-500 mr-2 mt-0.5 flex-shrink-0" />
-                <span>BottleCRM is provided "as is" without warranty of any kind</span>
+                <span>AWCRM is provided "as is" without warranty of any kind</span>
               </li>
               <li class="flex items-start">
                 <AlertTriangle class="w-5 h-5 text-yellow-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -355,7 +355,7 @@
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
-            <p class="text-gray-700 leading-relaxed mb-4">You are responsible for your use of BottleCRM, including compliance with applicable laws, data protection regulations, and proper security practices when self-hosting the software.</p>
+            <p class="text-gray-700 leading-relaxed mb-4">You are responsible for your use of AWCRM, including compliance with applicable laws, data protection regulations, and proper security practices when self-hosting the software.</p>
             
             <h4 class="font-bold text-gray-900 mb-3">Your Responsibilities Include:</h4>
             <ul class="space-y-3 text-gray-700">
@@ -374,7 +374,7 @@
               <li class="flex items-start">
                 <Shield class="w-5 h-5 text-blue-500 mr-2 mt-0.5 flex-shrink-0" />
                 <div>
-                  <strong>Legal Compliance:</strong> Use BottleCRM in accordance with applicable laws
+                  <strong>Legal Compliance:</strong> Use AWCRM in accordance with applicable laws
                 </div>
               </li>
               <li class="flex items-start">
@@ -402,7 +402,7 @@
           </div>
 
           <div class="bg-red-50 border border-red-200 rounded-xl p-6 mb-6">
-            <p class="text-gray-700 leading-relaxed mb-4">BottleCRM is provided "as is" without warranty of any kind. We shall not be liable for any damages arising from the use of our software or services, except as required by applicable law.</p>
+            <p class="text-gray-700 leading-relaxed mb-4">AWCRM is provided "as is" without warranty of any kind. We shall not be liable for any damages arising from the use of our software or services, except as required by applicable law.</p>
             
             <h4 class="font-bold text-gray-900 mb-3">Limitation of Liability:</h4>
             <div class="bg-white p-4 rounded-lg border-l-4 border-red-500 mb-4">
@@ -440,12 +440,12 @@
             <h2 class="text-3xl font-bold text-gray-900 mb-6">7. Contact Information</h2>
             <div class="bg-blue-50 rounded-xl p-6">
               <p class="text-gray-700 mb-4">
-                For questions about these Terms of Service, the BottleCRM software, or our paid services, please contact us:
+                For questions about these Terms of Service, the AWCRM software, or our paid services, please contact us:
               </p>
               <div class="space-y-3">
                 <div class="flex items-center">
                   <ExternalLink class="w-5 h-5 text-blue-600 mr-3" />
-                  <a href="https://github.com/MicroPyramid/opensource-startup-crm" 
+                  <a href="https://github.com/abetworks/awcrm" 
                      target="_blank" 
                      rel="noopener noreferrer"
                      class="text-blue-600 hover:text-blue-700">
@@ -468,7 +468,7 @@
             <div class="bg-gray-50 rounded-xl p-6">
               <p class="text-gray-700 mb-4">
                 We may update these Terms of Service from time to time. Any changes will be posted on this page with an updated 
-                "Last updated" date. Your continued use of BottleCRM after any changes constitutes acceptance of the new terms.
+                "Last updated" date. Your continued use of AWCRM after any changes constitutes acceptance of the new terms.
               </p>
               <p class="text-gray-700">
                 For significant changes affecting paid services, we will provide reasonable notice to existing customers.
@@ -482,7 +482,7 @@
             <div class="bg-gray-50 rounded-xl p-6">
               <p class="text-gray-700">
                 These Terms of Service are governed by and construed in accordance with applicable international open-source 
-                software laws and the MIT License under which BottleCRM is distributed. Any disputes shall be resolved through 
+                software laws and the MIT License under which AWCRM is distributed. Any disputes shall be resolved through 
                 appropriate legal channels in the jurisdiction where the dispute arises.
               </p>
             </div>
@@ -500,12 +500,12 @@
       <div in:fade="{{ duration: 600, delay: 1000 }}">
         <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p class="text-xl text-blue-100 mb-8">
-          Now that you understand our terms, download BottleCRM and start managing your customer relationships for free.
+          Now that you understand our terms, download AWCRM and start managing your customer relationships for free.
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a href="/login" 
              class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-blue-700 bg-white hover:bg-gray-100 transition-colors duration-200">
-            Start Using BottleCRM
+            Start Using AWCRM
           </a>
           <a href="/" 
              class="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-lg text-white hover:bg-white/10 transition-colors duration-200">

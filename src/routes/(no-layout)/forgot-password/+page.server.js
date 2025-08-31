@@ -57,9 +57,9 @@ export const actions = {
         
         try {
             await transporter.sendMail({
-                from: env.SMTP_FROM || 'noreply@bottlecrm.com',
-                to: email,
-                subject: 'Reset Your BottleCRM Password',
+                from: env.SMTP_FROM || 'noreply@abetworks.in',
+                to: data.email,
+                subject: 'Reset Your AWCRM Password',
                 html: `
                     <h1>Reset Your Password</h1>
                     <p>You requested to reset your password. Click the link below to set a new password:</p>

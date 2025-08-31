@@ -121,63 +121,83 @@ export async function load({ url, cookies }) {
   return { google_url: google_login_url }
 }
 
-function hashPassword(password) {
-    return crypto.createHash('sha256').update(password).digest('hex');
-}
+import bcrypt from 'bcryptjs';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
     login: async ({ request, cookies }) => {
-        const data = await request.formData();
-        const email = data.get('email');
-        const password = data.get('password');
+        try {
+            const data = await request.formData();
+            const email = data.get('email')?.toString();
+            const password = data.get('password')?.toString();
 
-        if (!email || !password) {
-            return fail(400, {
-                error: 'Email and password are required'
-            });
-        }
-
-        // Find user by email
-        const user = await prisma.user.findUnique({
-            where: { email: email.toString() }
-        });
-
-        if (!user || !user.password) {
-            return fail(400, {
-                error: 'Invalid email or password'
-            });
-        }
-
-        // Compare password hash
-        const hashedPassword = hashPassword(password.toString());
-        if (hashedPassword !== user.password) {
-            return fail(400, {
-                error: 'Invalid email or password'
-            });
-        }
-
-        // Generate session ID
-        const sessionId = uuidv4();
-
-        // Update user with new session
-        await prisma.user.update({
-            where: { id: user.id },
-            data: {
-                session_id: sessionId,
-                lastLogin: new Date()
+            if (!email || !password) {
+                return fail(400, {
+                    error: 'Email and password are required',
+                    email: email || ''
+                });
             }
-        });
 
-        // Set session cookie
-        cookies.set('session', sessionId, {
-            path: '/',
-            httpOnly: true,
-            sameSite: 'strict',
-            secure: true,
-            maxAge: 60 * 60 * 24 * 7 // one week
-        });
+            // Find user by email
+            const user = await prisma.user.findUnique({
+                where: { email },
+                select: {
+                    id: true,
+                    email: true,
+                    password: true,
+                    isEmailVerified: true
+                }
+            });
 
-        throw redirect(307, '/bounce');
+            if (!user) {
+                return fail(400, {
+                    error: 'Invalid email or password',
+                    email: email
+                });
+            }
+
+            if (!user.isEmailVerified) {
+                return fail(400, {
+                    error: 'Please verify your email before logging in',
+                    email: email
+                });
+            }
+
+            // If password doesn't exist (Google user) or doesn't match
+            if (!user.password || !(await bcrypt.compare(password, user.password))) {
+                return fail(400, {
+                    error: 'Invalid email or password',
+                    email: email
+                });
+            }
+
+            // Generate session ID
+            const sessionId = uuidv4();
+
+            // Update user with new session
+            await prisma.user.update({
+                where: { id: user.id },
+                data: {
+                    session_id: sessionId,
+                    lastLogin: new Date()
+                }
+            });
+
+            // Set session cookie
+            cookies.set('session', sessionId, {
+                path: '/',
+                httpOnly: true,
+                sameSite: 'lax', // Changed to lax to support OAuth redirects
+                secure: process.env.NODE_ENV === 'production',
+                maxAge: 60 * 60 * 24 * 7 // one week
+            });
+
+            throw redirect(307, '/bounce');
+        } catch (error) {
+            console.error('Login error:', error);
+            return fail(500, {
+                error: 'An error occurred during login. Please try again.'
+            });
+        }
     }
 };

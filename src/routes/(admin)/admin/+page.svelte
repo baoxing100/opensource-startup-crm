@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-    <title>Analytics - BottleCRM</title>
+    <title>Analytics - AWCRM</title>
 </svelte:head>
 
 <div class="p-6 space-y-6">

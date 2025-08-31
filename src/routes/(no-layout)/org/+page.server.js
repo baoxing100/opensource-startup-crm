@@ -1,17 +1,18 @@
 import { env } from '$env/dynamic/private';
 import prisma from '$lib/prisma'
 
-export async function load({ cookies, locals }) {
-    const user = locals.user;
-    
-    if (!user) {
-        return { orgs: [] };
+import { redirect } from '@sveltejs/kit';
+
+export async function load({ locals }) {
+    // Check if user is authenticated
+    if (!locals.user) {
+        throw redirect(307, '/login');
     }
     
     // Fetch organizations associated with this user
     const userOrgs = await prisma.userOrganization.findMany({
         where: {
-            userId: user.id
+            userId: locals.user.id
         },
         include: {
             organization: true
@@ -25,6 +26,12 @@ export async function load({ cookies, locals }) {
         logo: userOrg.organization.logo,
         role: userOrg.role
     }));
+
+    // If user has exactly one organization, auto-select it
+    if (orgs.length === 1) {
+        const org = orgs[0];
+        throw redirect(307, '/app');
+    }
     
     return { orgs };
 }

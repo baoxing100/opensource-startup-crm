@@ -63,23 +63,23 @@
 </script>
 
 <svelte:head>
-  <title>Contact BottleCRM | Free CRM & Professional Services</title>
-  <meta name="description" content="Contact BottleCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
-  <meta name="keywords" content="free crm, open source crm, bottlecrm, crm setup, crm hosting, crm customization, crm support, crm development, crm training" />
-  <link rel="canonical" href="https://bottlecrm.io/contact" />
+  <title>Contact AWCRM | Free CRM & Professional Services</title>
+  <meta name="description" content="Contact AWCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
+  <meta name="keywords" content="free crm, open source crm, awcrm, crm setup, crm hosting, crm customization, crm support, crm development, crm training" />
+  <link rel="canonical" href="https://abetworks.in/contact" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Contact BottleCRM | Free CRM & Professional Services" />
-  <meta property="og:description" content="Contact BottleCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
+  <meta property="og:title" content="Contact AWCRM | Free CRM & Professional Services" />
+  <meta property="og:description" content="Contact AWCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/contact" />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:url" content="https://abetworks.in/contact" />
+  <meta property="og:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact BottleCRM | Free CRM & Professional Services" />
-  <meta name="twitter:description" content="Contact BottleCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
-  <meta name="twitter:image" content="https://bottlecrm.io/og-image.png" />
+  <meta name="twitter:title" content="Contact AWCRM | Free CRM & Professional Services" />
+  <meta name="twitter:description" content="Contact AWCRM for free CRM software, setup, hosting, customization, and expert support. Get started or request professional CRM services today." />
+  <meta name="twitter:image" content="https://abetworks.in/og-image.png" />
 
   <!-- Organization & Contact Schema -->
   {@html `
@@ -87,12 +87,12 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "BottleCRM",
-      "url": "https://bottlecrm.io",
-      "logo": "https://bottlecrm.io/logo.png",
+      "name": "AWCRM",
+      "url": "https://abetworks.in",
+      "logo": "https://abetworks.in/logo.png",
       "contactPoint": [{
         "@type": "ContactPoint",
-        "email": "bottlecrm@micropyramid.com",
+        "email": "support@abetworks.in",
         "contactType": "customer support",
         "areaServed": "Global",
         "availableLanguage": ["English"]
@@ -103,9 +103,9 @@
     {
       "@context": "https://schema.org",
       "@type": "ContactPage",
-      "name": "Contact BottleCRM",
-      "description": "Contact BottleCRM for free CRM software, setup, hosting, customization, and expert support.",
-      "url": "https://bottlecrm.io/contact"
+      "name": "Contact AWCRM",
+      "description": "Contact AWCRM for free CRM software, setup, hosting, customization, and expert support.",
+      "url": "https://abetworks.in/contact"
     }
     </script>
   `}
@@ -121,7 +121,7 @@
       </div>
       
       <h1 class="text-4xl md:text-6xl font-extrabold mb-6">
-        Get Expert Help with <span class="text-green-300">BottleCRM</span>
+        Get Expert Help with <span class="text-green-300">AWCRM</span>
       </h1>
       
       <p class="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
@@ -559,7 +559,7 @@
               <Mail class="w-6 h-6 text-blue-600 mr-4 mt-1" />
               <div>
                 <div class="font-semibold text-gray-900">Email</div>
-                <div class="text-gray-600">bottlecrm@micropyramid.com</div>
+                <div class="text-gray-600">support@abetworks.in</div>
                 <div class="text-sm text-gray-500">Response within 24 hours</div>
               </div>
             </div>
@@ -570,7 +570,7 @@
               <div>
                 <div class="font-semibold text-gray-900">GitHub Issues</div>
                 <div class="text-gray-600">Bug reports & feature requests</div>
-                <a href="https://github.com/MicroPyramid/opensource-startup-crm/issues" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 text-sm">Open an issue →</a>
+                <a href="https://github.com/abetworks/opensource-startup-crm/issues" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 text-sm">Open an issue →</a>
               </div>
             </div>
             
@@ -590,7 +590,7 @@
           <h4 class="text-lg font-bold text-gray-900 mb-4">Frequently Asked Questions</h4>
           <div class="space-y-3">
             <details class="bg-white rounded-lg border border-gray-200 p-4">
-              <summary class="font-medium text-gray-900 cursor-pointer">How quickly can you set up BottleCRM for my business?</summary>
+              <summary class="font-medium text-gray-900 cursor-pointer">How quickly can you set up AWCRM for my business?</summary>
               <p class="text-gray-600 text-sm mt-2 leading-relaxed">Basic setup can be completed within 24-48 hours. Professional Setup typically takes 3-5 business days, while Enterprise Setup with custom features may take 1-2 weeks depending on complexity.</p>
             </details>
             <details class="bg-white rounded-lg border border-gray-200 p-4">
@@ -599,7 +599,7 @@
             </details>
             <details class="bg-white rounded-lg border border-gray-200 p-4">
               <summary class="font-medium text-gray-900 cursor-pointer">Can you migrate data from our current CRM?</summary>
-              <p class="text-gray-600 text-sm mt-2 leading-relaxed">We're currently developing data migration scripts for popular CRM platforms including Salesforce, HubSpot, and Pipedrive. These tools will be available soon. In the meantime, we can help you manually export/import your data and provide guidance on the best migration approach for your specific needs.</p>
+              <p class="text-gray-600 text-sm mt-2 leading-relaxed">We're currently developing data migration scripts for popular CRM platforms including Salesforce, HubSpot, and Pipedrive. These tools will be available soon. In the meantime, we can help you manually export/import your data and provide guidance on the best migration approach for your specific needs. Our team ensures a smooth transition to AWCRM.</p>
             </details>
             <details class="bg-white rounded-lg border border-gray-200 p-4">
               <summary class="font-medium text-gray-900 cursor-pointer">What if I need ongoing support after setup?</summary>
@@ -620,7 +620,7 @@
         Why Choose Our Professional Services?
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        While BottleCRM is free, our professional services save you time and ensure optimal implementation.
+        While AWCRM is free, our professional services save you time and ensure optimal implementation.
       </p>
     </div>
 
@@ -671,9 +671,9 @@
     </p>
     
     <div class="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-      <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
+      <a href="https://github.com/abetworks/opensource-startup-crm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-gray-100 shadow-2xl transition-all duration-200 hover:scale-105">
         <Download class="w-6 h-6 mr-3" />
-        Try BottleCRM Free
+        Try AWCRM Free
       </a>
       <button onclick={() => document.querySelector('form')?.scrollIntoView({behavior: 'smooth'})} class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-white border-2 border-white hover:bg-white/10 transition-all duration-200">
         <Send class="w-6 h-6 mr-3" />

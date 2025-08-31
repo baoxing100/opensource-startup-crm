@@ -78,7 +78,7 @@
   <!-- Enhanced SEO Meta Tags -->
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="language" content="English" />
-  <meta name="author" content="MicroPyramid" />
+  <meta name="author" content="Abetworks" />
   <link rel="canonical" href="https://abetworks.in{page.url.pathname}" />
   
   <!-- Enhanced Open Graph -->
@@ -120,9 +120,9 @@
           <a href="/contact" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Support</a>
           
           <!-- GitHub Star Button -->
-          <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" 
+          <a href="https://github.com/abetworks/awcrm" target="_blank" rel="noopener noreferrer" 
              class="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors duration-200"
-             aria-label="Star BottleCRM on GitHub">
+             aria-label="Star AWCRM on GitHub">
             <Github class="w-4 h-4 mr-1" />
           </a>
           
@@ -137,7 +137,7 @@
         
         <!-- Tablet Navigation - Shows limited items -->
         <div class="hidden lg:flex xl:hidden items-center space-x-2">
-          <a href="https://www.youtube.com/@bottlecrm" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Demo</a>
+          <a href="https://www.youtube.com/@abetworks" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Demo</a>
           <a href="/login" class="px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">Login</a>
           <a href="/signup" class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200">Sign Up</a>
           
@@ -192,7 +192,7 @@
               <span class="flex-1">Pricing</span>
               <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-medium">Free</span>
             </a>
-            <a href="https://www.youtube.com/@bottlecrm" class="flex items-center px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 transition-all duration-200">
+            <a href="https://www.youtube.com/@abetworks" class="flex items-center px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 transition-all duration-200">
               <Video class="w-5 h-5 mr-3 text-purple-500" />
               Live Demo
             </a>
@@ -208,7 +208,7 @@
 
           <!-- GitHub Link -->
           <div class="pt-2">
-            <a href="https://github.com/MicroPyramid/svelte-crm" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/abetworks/awcrm" target="_blank" rel="noopener noreferrer" 
                class="flex items-center px-4 py-3 rounded-xl text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 active:bg-gray-100 transition-all duration-200">
               <Github class="w-5 h-5 mr-3" />
               <span class="flex-1">GitHub Repository</span>
@@ -266,11 +266,13 @@
             }}
             bind:this={newsletterForm}
           >
-            {#if showNewsletterMessage}
-              <div class="mb-4 p-3 rounded-lg {newsletterMessage.includes('Success') ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'} text-sm">
-                {newsletterMessage}
-              </div>
-            {/if}
+            <div class="h-12 mb-4">
+              {#if showNewsletterMessage}
+                <div class="p-3 rounded-lg {newsletterMessage.includes('Success') ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'} text-sm">
+                  {newsletterMessage}
+                </div>
+              {/if}
+            </div>
             <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3">
               <label for="newsletter-email" class="sr-only">Enter your email address</label>
               <input 
@@ -303,15 +305,15 @@
           
           <!-- Social Links -->
           <div class="flex space-x-4">
-            <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/abetworks/awcrm" target="_blank" rel="noopener noreferrer" 
                class="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200" aria-label="GitHub">
               <Github class="h-5 w-5" />
             </a>
-            <a href="https://x.com/micropyramid" target="_blank" rel="noopener noreferrer" 
+            <a href="https://twitter.com/abetworks" target="_blank" rel="noopener noreferrer" 
                class="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200" aria-label="Twitter">
               <Twitter class="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com/company/micropyramid" target="_blank" rel="noopener noreferrer" 
+            <a href="https://linkedin.com/company/abetworks" target="_blank" rel="noopener noreferrer" 
                class="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200" aria-label="LinkedIn">
               <Linkedin class="h-5 w-5" />
             </a>

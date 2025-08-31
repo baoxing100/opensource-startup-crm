@@ -71,7 +71,7 @@ AWCRM is a free, open-source Customer Relationship Management solution designed 
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/micropyramid/svelte-crm.git
+git clone https://github.com/baoxing100/opensource-startup-crm.git
 cd svelte-crm
 ```
 
@@ -163,7 +163,7 @@ pnpm run preview
 ### User Roles
 - **User**: Standard access to organization data
 - **Admin**: Organization-level administrative privileges
-- **Super Admin**: Platform-wide access (requires @micropyramid.com email)
+- **Super Admin**: Platform-wide access (requires @abetworks.in email)
 
 ### Data Security
 - All database queries are organization-scoped

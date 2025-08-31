@@ -76,7 +76,7 @@
               </div>
               <div class="flex flex-wrap gap-3">
                 <a 
-                  href="https://www.facebook.com/MicroPyramid" 
+                  href="https://www.facebook.com/abetworks" 
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium text-sm transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -85,7 +85,7 @@
                   Facebook
                 </a>
                 <a 
-                  href="https://x.com/micropyramid" 
+                  href="https://x.com/abetworks" 
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-900 hover:bg-gray-800 text-white font-medium text-sm transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -94,7 +94,7 @@
                   X
                 </a>
                 <a 
-                  href="https://www.linkedin.com/company/micropyramid" 
+                  href="https://www.linkedin.com/company/abetworks" 
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-700 hover:bg-blue-800 text-white font-medium text-sm transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -132,29 +132,29 @@
 
 <MetaTags
   title={data.blog?.seoTitle || 'Blog Post'}
-  titleTemplate="%s | BottleCRM"
+  titleTemplate="%s | AWCRM"
   description={data.blog?.seoDescription || 'Blog post'}
-  canonical={"https://bottlecrm.com/blog/" + (data.blog?.slug || '') + "/"}
+  canonical={"https://abetworks.in/blog/" + (data.blog?.slug || '') + "/"}
   openGraph={{
     url: data.blog?.slug || '',
     title: data.blog?.seoTitle || 'Blog Post',
     description: data.blog?.seoDescription || 'Blog post',
     images: [
       {
-        url: "https://bottlecrm.com/images/logo.png",
+        url: "https://abetworks.in/images/logo.png",
         width: 800,
         height: 600,
-        alt: "BottleCRM - Open Source CRM Solution",
+        alt: "AWCRM - Open Source CRM Solution",
       },
     ],
-    siteName: "BottleCRM",
+    siteName: "AWCRM",
   }}
   twitter={{
-    site: "@bottlecrm",
+    site: "@abetworks",
     cardType: "summary_large_image",
     title: data.blog?.seoTitle || 'Blog Post',
     description: data.blog?.seoDescription || 'Blog post',
-    image: "https://bottlecrm.com/images/logo.png",
-    imageAlt: "BottleCRM - Open Source CRM Solution",
+    image: "https://abetworks.in/images/logo.png",
+    imageAlt: "AWCRM - Open Source CRM Solution",
   }}
 />

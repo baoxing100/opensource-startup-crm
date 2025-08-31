@@ -27,24 +27,24 @@
 </script>
 
 <svelte:head>
-  <title>BottleCRM FAQ | Free Open Source CRM for Startups & SMBs</title>
-  <meta name="description" content="Answers to common questions about BottleCRM, the free open-source CRM for startups and small businesses. Learn about features, pricing, support, and self-hosting." />
-  <meta name="keywords" content="free crm, open source crm, bottlecrm, crm faq, self hosted crm, startup crm, small business crm, crm support, crm pricing, crm features" />
-  <link rel="canonical" href="https://bottlecrm.io/faq" />
+  <title>AWCRM FAQ | Free Open Source CRM for Startups & SMBs</title>
+  <meta name="description" content="Answers to common questions about AWCRM, the free open-source CRM for startups and small businesses. Learn about features, pricing, support, and self-hosting." />
+  <meta name="keywords" content="free crm, open source crm, awcrm, crm faq, self hosted crm, startup crm, small business crm, crm support, crm pricing, crm features" />
+  <link rel="canonical" href="https://awcrm.com/faq" />
   <meta name="robots" content="index, follow" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="BottleCRM FAQ | Free Open Source CRM for Startups & SMBs" />
-  <meta property="og:description" content="Find answers to your questions about BottleCRM, the free open-source CRM for startups and small businesses." />
+  <meta property="og:title" content="AWCRM FAQ | Free Open Source CRM for Startups & SMBs" />
+  <meta property="og:description" content="Find answers to your questions about AWCRM, the free open-source CRM for startups and small businesses." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bottlecrm.io/faq" />
-  <meta property="og:image" content="https://bottlecrm.io/og-image.png" />
+  <meta property="og:url" content="https://awcrm.com/faq" />
+  <meta property="og:image" content="https://awcrm.com/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BottleCRM FAQ | Free Open Source CRM for Startups & SMBs" />
-  <meta name="twitter:description" content="Answers to common questions about BottleCRM, the free open-source CRM for startups and small businesses." />
-  <meta name="twitter:image" content="https://bottlecrm.io/og-image.png" />
+  <meta name="twitter:title" content="AWCRM FAQ | Free Open Source CRM for Startups & SMBs" />
+  <meta name="twitter:description" content="Answers to common questions about AWCRM, the free open-source CRM for startups and small businesses." />
+  <meta name="twitter:image" content="https://awcrm.com/og-image.png" />
 
   <!-- FAQPage Schema.org Structured Data -->
   {@html `
@@ -55,23 +55,23 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is BottleCRM really free?",
+          "name": "Is AWCRM really free?",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, BottleCRM is 100% free and open-source with no user limits or hidden fees."
+            "@type": "Answer", 
+            "text": "Yes, AWCRM is 100% free and open-source with no user limits or hidden fees."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I self-host BottleCRM?",
+          "name": "Can I self-host AWCRM?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely! You can deploy BottleCRM on your own server or cloud for full data control."
+            "text": "Absolutely! You can deploy AWCRM on your own server or cloud for full data control."
           }
         },
         {
           "@type": "Question",
-          "name": "What features are included in BottleCRM?",
+          "name": "What features are included in AWCRM?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "All core CRM features: contact management, sales pipeline, tasks, analytics, and more are included for free."
@@ -79,7 +79,7 @@
         },
         {
           "@type": "Question",
-          "name": "How does BottleCRM make money?",
+          "name": "How does AWCRM make money?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "We offer optional paid services like setup, support, and custom development. The software itself is always free."
@@ -101,7 +101,7 @@
       </div>
       
       <h1 class="text-4xl md:text-6xl font-extrabold mb-6">
-        Everything About <span class="text-yellow-300">BottleCRM</span>
+        Everything About <span class="text-yellow-300">AWCRM</span>
       </h1>
       
       <p class="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
@@ -120,7 +120,7 @@
         Browse FAQ Categories
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        Find answers organized by topic to help you get started with BottleCRM.
+        Find answers organized by topic to help you get started with AWCRM.
       </p>
     </div>
 
@@ -215,7 +215,7 @@
             aria-expanded={activeFaq === 'general-0'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What is BottleCRM and why is it free?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What is AWCRM and why is it free?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'general-0' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -223,7 +223,7 @@
           {#if activeFaq === 'general-0'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM is a 100% free, open-source Customer Relationship Management (CRM) software built specifically for startups and small businesses. It's free because we believe every business should have access to powerful CRM tools without expensive subscription fees. We make revenue through optional paid support services, not by charging for the software itself.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM is a 100% free, open-source Customer Relationship Management (CRM) software built specifically for startups and small businesses. It's free because we believe every business should have access to powerful CRM tools without expensive subscription fees. We make revenue through optional paid support services, not by charging for the software itself.</p>
               </div>
             </div>
           {/if}
@@ -236,7 +236,7 @@
             aria-expanded={activeFaq === 'general-1'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is BottleCRM really completely free forever?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is AWCRM really completely free forever?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'general-1' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -244,7 +244,7 @@
           {#if activeFaq === 'general-1'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Yes! BottleCRM core software is completely free with no hidden costs, user limits, trial periods, or subscription fees. You can download, use, modify, and distribute it under the MIT open-source license. The only costs are optional professional services like setup assistance, customization, and hosting support.</p>
+                <p class="text-gray-700 leading-relaxed">Yes! AWCRM core software is completely free with no hidden costs, user limits, trial periods, or subscription fees. You can download, use, modify, and distribute it under the MIT open-source license. The only costs are optional professional services like setup assistance, customization, and hosting support.</p>
               </div>
             </div>
           {/if}
@@ -257,7 +257,7 @@
             aria-expanded={activeFaq === 'general-2'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">How does BottleCRM compare to commercial CRM platforms?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">How does AWCRM compare to commercial CRM platforms?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'general-2' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -265,7 +265,7 @@
           {#if activeFaq === 'general-2'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM provides many of the same core features as commercial CRM platforms but without monthly subscription costs. While enterprise solutions might have more advanced features, BottleCRM includes everything most startups and small businesses need: contact management, sales pipeline, task management, reporting, and email integration. You can save significant costs compared to paid alternatives.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM provides many of the same core features as commercial CRM platforms but without monthly subscription costs. While enterprise solutions might have more advanced features, AWCRM includes everything most startups and small businesses need: contact management, sales pipeline, task management, reporting, and email integration. You can save significant costs compared to paid alternatives.</p>
               </div>
             </div>
           {/if}
@@ -278,7 +278,7 @@
             aria-expanded={activeFaq === 'general-3'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Who should use BottleCRM?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Who should use AWCRM?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'general-3' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -286,7 +286,7 @@
           {#if activeFaq === 'general-3'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM is perfect for startups, small businesses, consulting firms, freelancers, real estate agencies, and any organization that needs to manage customer relationships without paying expensive subscription fees. It's also ideal for developers who want a customizable, self-hosted CRM solution.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM is perfect for startups, small businesses, consulting firms, freelancers, real estate agencies, and any organization that needs to manage customer relationships without paying expensive subscription fees. It's also ideal for developers who want a customizable, self-hosted CRM solution.</p>
               </div>
             </div>
           {/if}
@@ -472,7 +472,7 @@
             aria-expanded={activeFaq === 'technical-0'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What technology stack does BottleCRM use?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What technology stack does AWCRM use?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-0' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -480,7 +480,7 @@
           {#if activeFaq === 'technical-0'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM is built with modern web technologies: SvelteKit 2.21+ for the frontend, Prisma for database management, TailwindCSS 4.1+ for styling, and lucide-svelte for icons. It supports multiple databases including PostgreSQL, MySQL, and SQLite.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM is built with modern web technologies: SvelteKit 2.21+ for the frontend, Prisma for database management, TailwindCSS 4.1+ for styling, and lucide-svelte for icons. It supports multiple databases including PostgreSQL, MySQL, and SQLite.</p>
               </div>
             </div>
           {/if}
@@ -493,7 +493,7 @@
             aria-expanded={activeFaq === 'technical-1'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I self-host BottleCRM on my own servers?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I self-host AWCRM on my own servers?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-1' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -501,7 +501,7 @@
           {#if activeFaq === 'technical-1'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Yes! BottleCRM is designed to be self-hosted. You can deploy it on your own servers, cloud infrastructure (AWS, Google Cloud, Azure), VPS, or even run it locally. This gives you complete control over your data and eliminates vendor lock-in.</p>
+                <p class="text-gray-700 leading-relaxed">Yes! AWCRM is designed to be self-hosted. You can deploy it on your own servers, cloud infrastructure (AWS, Google Cloud, Azure), VPS, or even run it locally. This gives you complete control over your data and eliminates vendor lock-in.</p>
               </div>
             </div>
           {/if}
@@ -514,7 +514,7 @@
             aria-expanded={activeFaq === 'technical-2'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What are the system requirements for BottleCRM?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What are the system requirements for AWCRM?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-2' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -522,7 +522,7 @@
           {#if activeFaq === 'technical-2'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM has minimal system requirements: Node.js 18+, any modern database (PostgreSQL, MySQL, SQLite), and at least 512MB RAM. It can run on a basic VPS, cloud instance, or even a Raspberry Pi for small deployments.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM has minimal system requirements: Node.js 18+, any modern database (PostgreSQL, MySQL, SQLite), and at least 512MB RAM. It can run on a basic VPS, cloud instance, or even a Raspberry Pi for small deployments.</p>
               </div>
             </div>
           {/if}
@@ -535,7 +535,7 @@
             aria-expanded={activeFaq === 'technical-3'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is BottleCRM mobile-friendly?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is AWCRM mobile-friendly?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-3' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -543,7 +543,7 @@
           {#if activeFaq === 'technical-3'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Yes! BottleCRM features a fully responsive design that works perfectly on smartphones, tablets, and desktops. The interface automatically adapts to different screen sizes, ensuring a great user experience across all devices.</p>
+                <p class="text-gray-700 leading-relaxed">Yes! AWCRM features a fully responsive design that works perfectly on smartphones, tablets, and desktops. The interface automatically adapts to different screen sizes, ensuring a great user experience across all devices.</p>
               </div>
             </div>
           {/if}
@@ -556,7 +556,7 @@
             aria-expanded={activeFaq === 'technical-4'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I customize BottleCRM for my specific business needs?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I customize AWCRM for my specific business needs?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-4' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -564,7 +564,7 @@
           {#if activeFaq === 'technical-4'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Absolutely! BottleCRM is open-source, so you have complete access to the source code. You can modify the interface, add custom fields, integrate with third-party services, create custom reports, and tailor it to your exact business requirements.</p>
+                <p class="text-gray-700 leading-relaxed">Absolutely! AWCRM is open-source, so you have complete access to the source code. You can modify the interface, add custom fields, integrate with third-party services, create custom reports, and tailor it to your exact business requirements.</p>
               </div>
             </div>
           {/if}
@@ -577,7 +577,7 @@
             aria-expanded={activeFaq === 'technical-5'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Does BottleCRM integrate with other tools and services?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Does AWCRM integrate with other tools and services?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'technical-5' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -585,7 +585,7 @@
           {#if activeFaq === 'technical-5'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM includes email integration and can be extended to integrate with various third-party services like payment processors, marketing tools, accounting software, and communication platforms. Custom integrations can be developed as needed.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM includes email integration and can be extended to integrate with various third-party services like payment processors, marketing tools, accounting software, and communication platforms. Custom integrations can be developed as needed.</p>
               </div>
             </div>
           {/if}
@@ -606,7 +606,7 @@
           {#if activeFaq === 'technical-6'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM supports data import through CSV files and API integrations. For complex migrations from existing CRM platforms, our Enterprise Setup service includes professional data migration assistance to help you transition smoothly.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM supports data import through CSV files and API integrations. For complex migrations from existing CRM platforms, our Enterprise Setup service includes professional data migration assistance to help you transition smoothly.</p>
               </div>
             </div>
           {/if}
@@ -716,7 +716,7 @@
             aria-expanded={activeFaq === 'support-4'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I contribute to BottleCRM development?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can I contribute to AWCRM development?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'support-4' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -724,7 +724,7 @@
           {#if activeFaq === 'support-4'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Absolutely! BottleCRM is open-source and we welcome contributions. You can submit bug reports, feature requests, code improvements, documentation updates, and translations. Check our GitHub repository for contribution guidelines.</p>
+                <p class="text-gray-700 leading-relaxed">Absolutely! AWCRM is open-source and we welcome contributions. You can submit bug reports, feature requests, code improvements, documentation updates, and translations. Check our GitHub repository for contribution guidelines.</p>
               </div>
             </div>
           {/if}
@@ -737,7 +737,7 @@
             aria-expanded={activeFaq === 'support-5'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">How often is BottleCRM updated?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">How often is AWCRM updated?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'support-5' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -771,7 +771,7 @@
             aria-expanded={activeFaq === 'business-0'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What license does BottleCRM use?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What license does AWCRM use?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-0' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -779,7 +779,7 @@
           {#if activeFaq === 'business-0'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM is released under the MIT License, which is one of the most permissive open-source licenses. This means you can use, modify, distribute, and even sell BottleCRM without any licensing fees or restrictions.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM is released under the MIT License, which is one of the most permissive open-source licenses. This means you can use, modify, distribute, and even sell AWCRM without any licensing fees or restrictions.</p>
               </div>
             </div>
           {/if}
@@ -792,7 +792,7 @@
             aria-expanded={activeFaq === 'business-1'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Who owns the data in my BottleCRM installation?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Who owns the data in my AWCRM installation?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-1' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -800,7 +800,7 @@
           {#if activeFaq === 'business-1'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">You own 100% of your data! Since BottleCRM is self-hosted, all your customer data, contacts, sales information, and business intelligence remain on your servers under your complete control. There's no vendor lock-in or data hostage situations.</p>
+                <p class="text-gray-700 leading-relaxed">You own 100% of your data! Since AWCRM is self-hosted, all your customer data, contacts, sales information, and business intelligence remain on your servers under your complete control. There's no vendor lock-in or data hostage situations.</p>
               </div>
             </div>
           {/if}
@@ -813,7 +813,7 @@
             aria-expanded={activeFaq === 'business-2'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is BottleCRM secure for business use?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is AWCRM secure for business use?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-2' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -821,7 +821,7 @@
           {#if activeFaq === 'business-2'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Yes! BottleCRM follows security best practices including data encryption, secure authentication, SQL injection protection, and CSRF protection. Since you control the hosting environment, you can implement additional security measures as needed for your compliance requirements.</p>
+                <p class="text-gray-700 leading-relaxed">Yes! AWCRM follows security best practices including data encryption, secure authentication, SQL injection protection, and CSRF protection. Since you control the hosting environment, you can implement additional security measures as needed for your compliance requirements.</p>
               </div>
             </div>
           {/if}
@@ -834,7 +834,7 @@
             aria-expanded={activeFaq === 'business-3'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can BottleCRM handle GDPR compliance?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Can AWCRM handle GDPR compliance?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-3' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -842,7 +842,7 @@
           {#if activeFaq === 'business-3'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM provides the technical foundation for GDPR compliance including data export, data deletion, and audit trails. Since you control the data and hosting, you can implement the necessary policies and procedures to meet your specific compliance requirements.</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM provides the technical foundation for GDPR compliance including data export, data deletion, and audit trails. Since you control the data and hosting, you can implement the necessary policies and procedures to meet your specific compliance requirements.</p>
               </div>
             </div>
           {/if}
@@ -855,7 +855,7 @@
             aria-expanded={activeFaq === 'business-4'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is BottleCRM suitable for regulated industries?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">Is AWCRM suitable for regulated industries?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-4' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -863,7 +863,7 @@
           {#if activeFaq === 'business-4'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">BottleCRM can be adapted for regulated industries since you have complete control over the hosting environment and data handling. However, you're responsible for ensuring your implementation meets industry-specific compliance requirements (HIPAA, SOX, etc.).</p>
+                <p class="text-gray-700 leading-relaxed">AWCRM can be adapted for regulated industries since you have complete control over the hosting environment and data handling. However, you're responsible for ensuring your implementation meets industry-specific compliance requirements (HIPAA, SOX, etc.).</p>
               </div>
             </div>
           {/if}
@@ -876,7 +876,7 @@
             aria-expanded={activeFaq === 'business-5'}
           >
             <div class="flex justify-between items-start">
-              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What happens if BottleCRM development stops?</h3>
+              <h3 class="text-lg font-semibold text-gray-900 pr-4 leading-relaxed">What happens if AWCRM development stops?</h3>
               <ChevronDown class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 {activeFaq === 'business-5' ? 'rotate-180' : ''}" />
             </div>
           </button>
@@ -884,7 +884,7 @@
           {#if activeFaq === 'business-5'}
             <div transition:fade="{{ duration: 200 }}" class="px-6 pb-6 border-t border-gray-100">
               <div class="pt-4">
-                <p class="text-gray-700 leading-relaxed">Since BottleCRM is open-source, you'll always have access to the complete source code. Even if we stop development, you can continue using, maintaining, and developing the software independently or with the help of the community.</p>
+                <p class="text-gray-700 leading-relaxed">Since AWCRM is open-source, you'll always have access to the complete source code. Even if we stop development, you can continue using, maintaining, and developing the software independently or with the help of the community.</p>
               </div>
             </div>
           {/if}
@@ -912,7 +912,7 @@
           <Download class="h-8 w-8 text-blue-600" />
         </div>
         <h3 class="text-xl font-bold text-gray-900 mb-3">Get Started</h3>
-        <p class="text-gray-600 mb-4">Download and try BottleCRM for free right now.</p>
+        <p class="text-gray-600 mb-4">Download and try AWCRM for free right now.</p>
         <a href="https://github.com/MicroPyramid/opensource-startup-crm" target="_blank" rel="noopener noreferrer" 
            class="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
           Download Free
@@ -955,7 +955,7 @@
       Ready to Start Your Free CRM?
     </h2>
     <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-      Now that you know everything about BottleCRM, why not give it a try? It's completely free, and you can have it running in minutes.
+      Now that you know everything about AWCRM, why not give it a try? It's completely free, and you can have it running in minutes.
     </p>
     
     <div class="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-6">

@@ -52,7 +52,7 @@ export async function handle({ event, resolve }) {
         event.cookies.delete('org_name', { path: '/' });
         // Redirect to the organization selection page.
         // The user is still authenticated.
-        throw redirect(307, '/org');
+        throw redirect(307, '/(no-layout)/org');
       }
 	  }
 	}
@@ -67,7 +67,7 @@ export async function handle({ event, resolve }) {
 	  // For /app routes, also ensure an organization is selected
 	  if (!event.locals.org) {
 	    // If user is authenticated but no org is selected, redirect to org selection page
-	    throw redirect(307, '/org');
+	    throw redirect(307, '/(no-layout)/org');
 	  }
 	  
 	  // We already verified above that if org exists in locals, the user is part of it
@@ -84,7 +84,7 @@ export async function handle({ event, resolve }) {
 	  }
 	}
 	// Handle other protected routes
-	else if (event.url.pathname.startsWith('/org')) {
+	else if (event.url.pathname.includes('/org')) {
 	  if (!user) {
 	    throw redirect(307, '/login');
 	  }
