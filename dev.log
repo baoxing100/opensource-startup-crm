@@ -1,0 +1,33 @@
+
+> awcrm@0.0.1 dev
+> vite dev
+
+2:28:40 PM [vite] (client) Forced re-optimization of dependencies
+
+  VITE v7.1.4  ready in 3692 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+Login error: Redirect { status: 307, location: '/bounce' }
+2:33:25 PM [vite] .env changed, restarting server...
+2:33:26 PM [vite] server restarted.
+Login error: Redirect { status: 307, location: '/bounce' }
+2:36:45 PM [vite] (client) hmr update /src/routes/(no-layout)/bounce/+page.svelte, /src/app.css
+2:36:45 PM [vite] (ssr) page reload src/routes/(no-layout)/bounce/+page.svelte
+Login error: Redirect { status: 307, location: '/bounce' }
+Login error: Redirect { status: 307, location: '/bounce' }
+Login error: Redirect { status: 307, location: '/bounce' }
+
+[1;31m[404] POST /login[0m
+
+[1;31m[404] GET /(no-layout)/org[0m
+2:43:46 PM [vite] (client) hmr update /src/routes/(no-layout)/login/EmailLoginForm.svelte, /src/app.css
+2:43:46 PM [vite] (ssr) page reload src/routes/(no-layout)/login/EmailLoginForm.svelte
+Login error: Redirect { status: 307, location: '/bounce' }
+Login error: Redirect { status: 307, location: '/bounce' }
+2:45:37 PM [vite] (client) hmr update /src/app.css
+2:45:37 PM [vite] (ssr) page reload src/routes/(no-layout)/login/+page.server.js
+
+[1;31m[404] GET /(no-layout)/org[0m
+
+[1;31m[404] GET /(no-layout)/org[0m
