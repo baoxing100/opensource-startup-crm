@@ -4,7 +4,7 @@
     
     onMount(() => {
         setTimeout(() => {
-            window.location.href = '/(no-layout)/org';
+            window.location.href = '/org';
         }, 500); 
     });
 </script>
