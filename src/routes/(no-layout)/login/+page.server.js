@@ -194,6 +194,11 @@ export const actions = {
 
             throw redirect(307, '/bounce');
         } catch (error) {
+            // Re-throw redirect errors as they are expected
+            if (error?.status && error?.location) {
+                throw error;
+            }
+            
             console.error('Login error:', error);
             return fail(500, {
                 error: 'An error occurred during login. Please try again.'
