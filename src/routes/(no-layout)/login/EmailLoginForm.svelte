@@ -9,8 +9,20 @@
     
     function handleSubmit() {
         isLoading = true;
-        return async ({ result }) => {
+        return async ({ result, update }) => {
             isLoading = false;
+            
+            // Handle different result types
+            if (result.type === 'redirect') {
+                // Let SvelteKit handle the redirect
+                window.location.href = result.location;
+            } else if (result.type === 'failure') {
+                // Update the form with error data
+                await update();
+            } else {
+                // For other result types, use default update
+                await update();
+            }
         };
     }
 </script>
